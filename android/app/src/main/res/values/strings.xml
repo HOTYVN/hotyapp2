@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="client_id">uCL2Zw91sj1edJ4e1mzB</string>
+    <string name="client_secret">lltMauR105</string>
+    <string name="client_name">hoty</string>
+
+    <string name="facebook_app_id">3046491145482999</string>
+    <string name="fb_login_protocol_scheme">fb3046491145482999</string>
+    <string name="facebook_client_token">22c80d21b2448240bd4d0662b5431e45</string>
+</resources>

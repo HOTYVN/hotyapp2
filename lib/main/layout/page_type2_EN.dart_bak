@@ -1,0 +1,183 @@
+import 'package:flutter/material.dart';
+
+import '../../categorymenu/living_view.dart';
+
+
+Row MainPage_Type2(section02List,coderesult,context) {
+  var urlpath = 'http://www.hoty.company';
+  List<dynamic> getsection02List = [];
+
+  var cat_nm = 'C1';
+  if(section02List.length > 0) {
+    for (var i = 0; i < coderesult.length; i++) {
+      if (coderesult[i]['pidx'] == cat_nm) {
+        getsection02List.addAll(section02List[coderesult[i]['idx']]);
+      }
+    }
+  }
+
+  getsection02List.forEach((element) {
+    // print(element);
+  });
+
+  return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      // crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        if(getsection02List.length > 0)
+          for(var i=0; i<getsection02List.length; i++)
+            GestureDetector(
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (context) {
+                    return LivingView(article_seq: getsection02List[i]['article_seq'], table_nm : getsection02List[i]['table_nm'], title_catcode: getsection02List[i]['main_category'],);
+                  },
+                ));
+              },
+              child: Container(
+                height: 90 * (MediaQuery.of(context).size.height / 360),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(3 * (MediaQuery.of(context).size.height / 360)),
+                  color: Colors.white,
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.2),
+                      spreadRadius: 3,
+                      blurRadius: 4,
+                      offset: Offset(0, 2), // changes position of shadow
+                    ),
+                  ],
+                ),
+                margin : EdgeInsets.fromLTRB(8, 0 * (MediaQuery.of(context).size.height / 360), 8, 0),
+                // padding: EdgeInsets.fromLTRB(20,30,10,15),
+                // color: Colors.black,
+                width: 170 * (MediaQuery.of(context).size.width / 360),
+                child: Column(
+                  children: [
+                    Container(
+                      width: 160 * (MediaQuery.of(context).size.width / 360),
+                      height: 65 * (MediaQuery.of(context).size.height / 360),
+                      margin : EdgeInsets.fromLTRB(0, 3 * (MediaQuery.of(context).size.height / 360), 0, 0),
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: NetworkImage('$urlpath${getsection02List[i]['main_img_path']}${getsection02List[i]['main_img']}'),
+                            fit: BoxFit.fill
+                        ),
+                        borderRadius: BorderRadius.circular(3 * (MediaQuery.of(context).size.height / 360)),
+                      ),
+                      // color: Colors.amberAccent,
+                    ),
+                    // 하단 정보
+                    for(var m=0; m<coderesult.length; m++)
+                      if(coderesult[m]['idx'] == getsection02List[i]['main_category'])
+                        Container(
+                          width: 140 * (MediaQuery.of(context).size.width / 360),
+                          margin : EdgeInsets.fromLTRB(0, 1 * (MediaQuery.of(context).size.height / 360), 0, 0),
+                          // height: 15 * (MediaQuery.of(context).size.height / 360),
+                          child: Column(
+                            children: [
+                              Container(
+                                margin : EdgeInsets.fromLTRB( 1  * (MediaQuery.of(context).size.height / 360), 5  * (MediaQuery.of(context).size.height / 360), 0, 0),
+                                width: 160 * (MediaQuery.of(context).size.width / 360),
+                                height: 10 * (MediaQuery.of(context).size.height / 360),
+                                child: Text(
+                                  "${coderesult[m]['val']}",
+                                  style: TextStyle(
+                                    fontSize: 14 * (MediaQuery.of(context).size.width / 360),
+                                    // color: Colors.white,
+                                    overflow: TextOverflow.ellipsis,
+                                    // fontWeight: FontWeight.bold,
+                                    // height: 1.5 * (MediaQuery.of(context).size.width / 360),
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                  ],
+                ),
+              ),
+            ),
+
+      ]
+  );
+}
+
+
+
+/*
+class MainPage_Type2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        // crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            height: 90 * (MediaQuery.of(context).size.height / 360),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(3 * (MediaQuery.of(context).size.height / 360)),
+              color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.withOpacity(0.2),
+                  spreadRadius: 3,
+                  blurRadius: 4,
+                  offset: Offset(0, 2), // changes position of shadow
+                ),
+              ],
+            ),
+            margin : EdgeInsets.fromLTRB(8, 0 * (MediaQuery.of(context).size.height / 360), 8, 0),
+            // padding: EdgeInsets.fromLTRB(20,30,10,15),
+            // color: Colors.black,
+            width: 170 * (MediaQuery.of(context).size.width / 360),
+            child: Column(
+              children: [
+                Container(
+                  width: 160 * (MediaQuery.of(context).size.width / 360),
+                  height: 65 * (MediaQuery.of(context).size.height / 360),
+                  margin : EdgeInsets.fromLTRB(0, 3 * (MediaQuery.of(context).size.height / 360), 0, 0),
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage('assets/main_cat01.png'),
+                        fit: BoxFit.fill
+                    ),
+                    borderRadius: BorderRadius.circular(3 * (MediaQuery.of(context).size.height / 360)),
+                  ),
+                  // color: Colors.amberAccent,
+                ),
+                // 하단 정보
+                Container(
+                  width: 140 * (MediaQuery.of(context).size.width / 360),
+                  margin : EdgeInsets.fromLTRB(0, 1 * (MediaQuery.of(context).size.height / 360), 0, 0),
+                  // height: 15 * (MediaQuery.of(context).size.height / 360),
+                  child: Column(
+                    children: [
+                      Container(
+                        margin : EdgeInsets.fromLTRB( 1  * (MediaQuery.of(context).size.height / 360), 5  * (MediaQuery.of(context).size.height / 360), 0, 0),
+                        width: 160 * (MediaQuery.of(context).size.width / 360),
+                        height: 10 * (MediaQuery.of(context).size.height / 360),
+                        child: Text(
+                          "Living Q&A",
+                          style: TextStyle(
+                            fontSize: 14 * (MediaQuery.of(context).size.width / 360),
+                            // color: Colors.white,
+                            overflow: TextOverflow.ellipsis,
+                            // fontWeight: FontWeight.bold,
+                            // height: 1.5 * (MediaQuery.of(context).size.width / 360),
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+        ]
+    );
+  }
+}*/

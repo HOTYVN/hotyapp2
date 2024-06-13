@@ -1,0 +1,351 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mediacore/Documents/dev/hoty/build/ios/Release-iphoneos/FirebaseDynamicLinks/FirebaseDynamicLinks.framework/FirebaseDynamicLinks'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x57488, size: 0x8, addend: 0x0, symName: _FirebaseDynamicLinksVersionString, symObjAddr: 0x0, symBinAddr: 0x112B0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x574BD, size: 0x8, addend: 0x0, symName: _FirebaseDynamicLinksVersionNumber, symObjAddr: 0x38, symBinAddr: 0x112E8, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x574FA, size: 0x8, addend: 0x0, symName: '+[FDLDeviceHeuristicsHelper FDLDeviceInfoDictionaryFromResolutionHeight:resolutionWidth:locale:localeRaw:localeFromWebview:timeZone:modelName:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x1B4 }
+  - { offsetInCU: 0x3C, offset: 0x5750F, size: 0x8, addend: 0x0, symName: '+[FDLDeviceHeuristicsHelper FDLDeviceInfoDictionaryFromResolutionHeight:resolutionWidth:locale:localeRaw:localeFromWebview:timeZone:modelName:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x1B4 }
+  - { offsetInCU: 0x27, offset: 0x57615, size: 0x8, addend: 0x0, symName: _FDLMessageCodeForLogIdentifier, symObjAddr: 0x0, symBinAddr: 0x41B4, symSize: 0x70 }
+  - { offsetInCU: 0x41, offset: 0x5762F, size: 0x8, addend: 0x0, symName: _kFIRLoggerDynamicLinks, symObjAddr: 0x220, symBinAddr: 0x18198, symSize: 0x0 }
+  - { offsetInCU: 0x6C, offset: 0x5765A, size: 0x8, addend: 0x0, symName: _FDLMessageCodeIntegerFormat, symObjAddr: 0x228, symBinAddr: 0x181A0, symSize: 0x0 }
+  - { offsetInCU: 0x76, offset: 0x57664, size: 0x8, addend: 0x0, symName: _FDLMessageCodeForLogIdentifier, symObjAddr: 0x0, symBinAddr: 0x41B4, symSize: 0x70 }
+  - { offsetInCU: 0x14A, offset: 0x57738, size: 0x8, addend: 0x0, symName: _FDLLog, symObjAddr: 0x70, symBinAddr: 0x4224, symSize: 0x124 }
+  - { offsetInCU: 0x27, offset: 0x57908, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkGoogleAnalyticsParameters parameters]', symObjAddr: 0x0, symBinAddr: 0x4348, symSize: 0x18 }
+  - { offsetInCU: 0x41, offset: 0x57922, size: 0x8, addend: 0x0, symName: _kFirebaseDurableDeepLinkErrorDomain, symObjAddr: 0x3960, symBinAddr: 0x181A8, symSize: 0x0 }
+  - { offsetInCU: 0x55, offset: 0x57936, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents url]', symObjAddr: 0x2704, symBinAddr: 0x6A4C, symSize: 0x1C4 }
+  - { offsetInCU: 0x178, offset: 0x57A59, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkComponents shorteningRequestForLongURL:options:]', symObjAddr: 0x2A10, symBinAddr: 0x6D58, symSize: 0x304 }
+  - { offsetInCU: 0x6D8, offset: 0x57FB9, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkGoogleAnalyticsParameters parameters]', symObjAddr: 0x0, symBinAddr: 0x4348, symSize: 0x18 }
+  - { offsetInCU: 0x70F, offset: 0x57FF0, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkGoogleAnalyticsParameters parametersWithSource:medium:campaign:]', symObjAddr: 0x18, symBinAddr: 0x4360, symSize: 0x88 }
+  - { offsetInCU: 0x776, offset: 0x58057, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters init]', symObjAddr: 0xA0, symBinAddr: 0x43E8, symSize: 0x6C }
+  - { offsetInCU: 0x7DB, offset: 0x580BC, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters initWithSource:medium:campaign:]', symObjAddr: 0x10C, symBinAddr: 0x4454, symSize: 0x1D4 }
+  - { offsetInCU: 0x881, offset: 0x58162, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters setSource:]', symObjAddr: 0x2E0, symBinAddr: 0x4628, symSize: 0x88 }
+  - { offsetInCU: 0x8D9, offset: 0x581BA, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters source]', symObjAddr: 0x368, symBinAddr: 0x46B0, symSize: 0x10 }
+  - { offsetInCU: 0x910, offset: 0x581F1, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters setMedium:]', symObjAddr: 0x378, symBinAddr: 0x46C0, symSize: 0x88 }
+  - { offsetInCU: 0x968, offset: 0x58249, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters medium]', symObjAddr: 0x400, symBinAddr: 0x4748, symSize: 0x10 }
+  - { offsetInCU: 0x99F, offset: 0x58280, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters setCampaign:]', symObjAddr: 0x410, symBinAddr: 0x4758, symSize: 0x88 }
+  - { offsetInCU: 0x9F7, offset: 0x582D8, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters campaign]', symObjAddr: 0x498, symBinAddr: 0x47E0, symSize: 0x10 }
+  - { offsetInCU: 0xA2E, offset: 0x5830F, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters setTerm:]', symObjAddr: 0x4A8, symBinAddr: 0x47F0, symSize: 0x88 }
+  - { offsetInCU: 0xA86, offset: 0x58367, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters term]', symObjAddr: 0x530, symBinAddr: 0x4878, symSize: 0x10 }
+  - { offsetInCU: 0xABD, offset: 0x5839E, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters setContent:]', symObjAddr: 0x540, symBinAddr: 0x4888, symSize: 0x88 }
+  - { offsetInCU: 0xB15, offset: 0x583F6, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters content]', symObjAddr: 0x5C8, symBinAddr: 0x4910, symSize: 0x10 }
+  - { offsetInCU: 0xB4C, offset: 0x5842D, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters dictionaryRepresentation]', symObjAddr: 0x5D8, symBinAddr: 0x4920, symSize: 0x18 }
+  - { offsetInCU: 0xB83, offset: 0x58464, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkGoogleAnalyticsParameters .cxx_destruct]', symObjAddr: 0x5F0, symBinAddr: 0x4938, symSize: 0xC }
+  - { offsetInCU: 0xBB6, offset: 0x58497, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkIOSParameters parametersWithBundleID:]', symObjAddr: 0x5FC, symBinAddr: 0x4944, symSize: 0x48 }
+  - { offsetInCU: 0xBFD, offset: 0x584DE, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters initWithBundleID:]', symObjAddr: 0x644, symBinAddr: 0x498C, symSize: 0xFC }
+  - { offsetInCU: 0xC59, offset: 0x5853A, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters bundleID]', symObjAddr: 0x740, symBinAddr: 0x4A88, symSize: 0x10 }
+  - { offsetInCU: 0xC90, offset: 0x58571, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters setAppStoreID:]', symObjAddr: 0x750, symBinAddr: 0x4A98, symSize: 0x88 }
+  - { offsetInCU: 0xCE8, offset: 0x585C9, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters appStoreID]', symObjAddr: 0x7D8, symBinAddr: 0x4B20, symSize: 0x10 }
+  - { offsetInCU: 0xD1F, offset: 0x58600, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters setFallbackURL:]', symObjAddr: 0x7E8, symBinAddr: 0x4B30, symSize: 0x90 }
+  - { offsetInCU: 0xD77, offset: 0x58658, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters fallbackURL]', symObjAddr: 0x878, symBinAddr: 0x4BC0, symSize: 0x68 }
+  - { offsetInCU: 0xDBE, offset: 0x5869F, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters setCustomScheme:]', symObjAddr: 0x8E0, symBinAddr: 0x4C28, symSize: 0x88 }
+  - { offsetInCU: 0xE16, offset: 0x586F7, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters customScheme]', symObjAddr: 0x968, symBinAddr: 0x4CB0, symSize: 0x10 }
+  - { offsetInCU: 0xE4D, offset: 0x5872E, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters setMinimumAppVersion:]', symObjAddr: 0x978, symBinAddr: 0x4CC0, symSize: 0x88 }
+  - { offsetInCU: 0xEA5, offset: 0x58786, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters minimumAppVersion]', symObjAddr: 0xA00, symBinAddr: 0x4D48, symSize: 0x10 }
+  - { offsetInCU: 0xEDC, offset: 0x587BD, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters setIPadBundleID:]', symObjAddr: 0xA10, symBinAddr: 0x4D58, symSize: 0x88 }
+  - { offsetInCU: 0xF34, offset: 0x58815, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters iPadBundleID]', symObjAddr: 0xA98, symBinAddr: 0x4DE0, symSize: 0x10 }
+  - { offsetInCU: 0xF6B, offset: 0x5884C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters setIPadFallbackURL:]', symObjAddr: 0xAA8, symBinAddr: 0x4DF0, symSize: 0x90 }
+  - { offsetInCU: 0xFC3, offset: 0x588A4, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters iPadFallbackURL]', symObjAddr: 0xB38, symBinAddr: 0x4E80, symSize: 0x68 }
+  - { offsetInCU: 0x100A, offset: 0x588EB, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters dictionaryRepresentation]', symObjAddr: 0xBA0, symBinAddr: 0x4EE8, symSize: 0x18 }
+  - { offsetInCU: 0x1041, offset: 0x58922, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkIOSParameters .cxx_destruct]', symObjAddr: 0xBB8, symBinAddr: 0x4F00, symSize: 0xC }
+  - { offsetInCU: 0x1074, offset: 0x58955, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkItunesConnectAnalyticsParameters parameters]', symObjAddr: 0xBC4, symBinAddr: 0x4F0C, symSize: 0x18 }
+  - { offsetInCU: 0x10AB, offset: 0x5898C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters init]', symObjAddr: 0xBDC, symBinAddr: 0x4F24, symSize: 0x6C }
+  - { offsetInCU: 0x10E2, offset: 0x589C3, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters setAffiliateToken:]', symObjAddr: 0xC48, symBinAddr: 0x4F90, symSize: 0x88 }
+  - { offsetInCU: 0x113A, offset: 0x58A1B, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters affiliateToken]', symObjAddr: 0xCD0, symBinAddr: 0x5018, symSize: 0x10 }
+  - { offsetInCU: 0x1171, offset: 0x58A52, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters setCampaignToken:]', symObjAddr: 0xCE0, symBinAddr: 0x5028, symSize: 0x88 }
+  - { offsetInCU: 0x11C9, offset: 0x58AAA, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters campaignToken]', symObjAddr: 0xD68, symBinAddr: 0x50B0, symSize: 0x10 }
+  - { offsetInCU: 0x1200, offset: 0x58AE1, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters setProviderToken:]', symObjAddr: 0xD78, symBinAddr: 0x50C0, symSize: 0x88 }
+  - { offsetInCU: 0x125B, offset: 0x58B3C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters providerToken]', symObjAddr: 0xE00, symBinAddr: 0x5148, symSize: 0x10 }
+  - { offsetInCU: 0x1293, offset: 0x58B74, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters dictionaryRepresentation]', symObjAddr: 0xE10, symBinAddr: 0x5158, symSize: 0x18 }
+  - { offsetInCU: 0x12CB, offset: 0x58BAC, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkItunesConnectAnalyticsParameters .cxx_destruct]', symObjAddr: 0xE28, symBinAddr: 0x5170, symSize: 0xC }
+  - { offsetInCU: 0x12FE, offset: 0x58BDF, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkAndroidParameters parametersWithPackageName:]', symObjAddr: 0xE34, symBinAddr: 0x517C, symSize: 0x48 }
+  - { offsetInCU: 0x1347, offset: 0x58C28, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkAndroidParameters initWithPackageName:]', symObjAddr: 0xE7C, symBinAddr: 0x51C4, symSize: 0xF0 }
+  - { offsetInCU: 0x13A6, offset: 0x58C87, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkAndroidParameters packageName]', symObjAddr: 0xF6C, symBinAddr: 0x52B4, symSize: 0x10 }
+  - { offsetInCU: 0x13DE, offset: 0x58CBF, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkAndroidParameters setMinimumVersion:]', symObjAddr: 0xF7C, symBinAddr: 0x52C4, symSize: 0x6C }
+  - { offsetInCU: 0x1423, offset: 0x58D04, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkAndroidParameters minimumVersion]', symObjAddr: 0xFE8, symBinAddr: 0x5330, symSize: 0x48 }
+  - { offsetInCU: 0x145B, offset: 0x58D3C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkAndroidParameters setFallbackURL:]', symObjAddr: 0x1030, symBinAddr: 0x5378, symSize: 0x90 }
+  - { offsetInCU: 0x14B6, offset: 0x58D97, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkAndroidParameters fallbackURL]', symObjAddr: 0x10C0, symBinAddr: 0x5408, symSize: 0x68 }
+  - { offsetInCU: 0x14FF, offset: 0x58DE0, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkAndroidParameters dictionaryRepresentation]', symObjAddr: 0x1128, symBinAddr: 0x5470, symSize: 0x18 }
+  - { offsetInCU: 0x1537, offset: 0x58E18, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkAndroidParameters .cxx_destruct]', symObjAddr: 0x1140, symBinAddr: 0x5488, symSize: 0xC }
+  - { offsetInCU: 0x156B, offset: 0x58E4C, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkSocialMetaTagParameters parameters]', symObjAddr: 0x114C, symBinAddr: 0x5494, symSize: 0x18 }
+  - { offsetInCU: 0x15A3, offset: 0x58E84, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters init]', symObjAddr: 0x1164, symBinAddr: 0x54AC, symSize: 0x6C }
+  - { offsetInCU: 0x15DB, offset: 0x58EBC, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters setTitle:]', symObjAddr: 0x11D0, symBinAddr: 0x5518, symSize: 0x88 }
+  - { offsetInCU: 0x1636, offset: 0x58F17, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters title]', symObjAddr: 0x1258, symBinAddr: 0x55A0, symSize: 0x10 }
+  - { offsetInCU: 0x166E, offset: 0x58F4F, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters setDescriptionText:]', symObjAddr: 0x1268, symBinAddr: 0x55B0, symSize: 0x88 }
+  - { offsetInCU: 0x16C9, offset: 0x58FAA, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters descriptionText]', symObjAddr: 0x12F0, symBinAddr: 0x5638, symSize: 0x10 }
+  - { offsetInCU: 0x1701, offset: 0x58FE2, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters setImageURL:]', symObjAddr: 0x1300, symBinAddr: 0x5648, symSize: 0x90 }
+  - { offsetInCU: 0x175C, offset: 0x5903D, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters imageURL]', symObjAddr: 0x1390, symBinAddr: 0x56D8, symSize: 0x68 }
+  - { offsetInCU: 0x17A5, offset: 0x59086, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters dictionaryRepresentation]', symObjAddr: 0x13F8, symBinAddr: 0x5740, symSize: 0x18 }
+  - { offsetInCU: 0x17DD, offset: 0x590BE, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkSocialMetaTagParameters .cxx_destruct]', symObjAddr: 0x1410, symBinAddr: 0x5758, symSize: 0xC }
+  - { offsetInCU: 0x1811, offset: 0x590F2, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkNavigationInfoParameters parameters]', symObjAddr: 0x141C, symBinAddr: 0x5764, symSize: 0x18 }
+  - { offsetInCU: 0x1849, offset: 0x5912A, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNavigationInfoParameters init]', symObjAddr: 0x1434, symBinAddr: 0x577C, symSize: 0x6C }
+  - { offsetInCU: 0x1881, offset: 0x59162, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNavigationInfoParameters isForcedRedirectEnabled]', symObjAddr: 0x14A0, symBinAddr: 0x57E8, symSize: 0x48 }
+  - { offsetInCU: 0x18B9, offset: 0x5919A, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNavigationInfoParameters setForcedRedirectEnabled:]', symObjAddr: 0x14E8, symBinAddr: 0x5830, symSize: 0x8C }
+  - { offsetInCU: 0x1914, offset: 0x591F5, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNavigationInfoParameters dictionaryRepresentation]', symObjAddr: 0x1574, symBinAddr: 0x58BC, symSize: 0x18 }
+  - { offsetInCU: 0x194C, offset: 0x5922D, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNavigationInfoParameters .cxx_destruct]', symObjAddr: 0x158C, symBinAddr: 0x58D4, symSize: 0xC }
+  - { offsetInCU: 0x1980, offset: 0x59261, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkOtherPlatformParameters parameters]', symObjAddr: 0x1598, symBinAddr: 0x58E0, symSize: 0x18 }
+  - { offsetInCU: 0x19B8, offset: 0x59299, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkOtherPlatformParameters init]', symObjAddr: 0x15B0, symBinAddr: 0x58F8, symSize: 0x6C }
+  - { offsetInCU: 0x19F0, offset: 0x592D1, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkOtherPlatformParameters fallbackUrl]', symObjAddr: 0x161C, symBinAddr: 0x5964, symSize: 0x68 }
+  - { offsetInCU: 0x1A39, offset: 0x5931A, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkOtherPlatformParameters setFallbackUrl:]', symObjAddr: 0x1684, symBinAddr: 0x59CC, symSize: 0x90 }
+  - { offsetInCU: 0x1A94, offset: 0x59375, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkOtherPlatformParameters dictionaryRepresentation]', symObjAddr: 0x1714, symBinAddr: 0x5A5C, symSize: 0x18 }
+  - { offsetInCU: 0x1ACC, offset: 0x593AD, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkOtherPlatformParameters .cxx_destruct]', symObjAddr: 0x172C, symBinAddr: 0x5A74, symSize: 0xC }
+  - { offsetInCU: 0x1B00, offset: 0x593E1, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkComponentsOptions options]', symObjAddr: 0x1738, symBinAddr: 0x5A80, symSize: 0x18 }
+  - { offsetInCU: 0x1B38, offset: 0x59419, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponentsOptions init]', symObjAddr: 0x1750, symBinAddr: 0x5A98, symSize: 0x34 }
+  - { offsetInCU: 0x1B70, offset: 0x59451, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponentsOptions pathLength]', symObjAddr: 0x1784, symBinAddr: 0x5ACC, symSize: 0x8 }
+  - { offsetInCU: 0x1BA8, offset: 0x59489, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponentsOptions setPathLength:]', symObjAddr: 0x178C, symBinAddr: 0x5AD4, symSize: 0x8 }
+  - { offsetInCU: 0x1BE6, offset: 0x594C7, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkComponents componentsWithLink:domain:]', symObjAddr: 0x1794, symBinAddr: 0x5ADC, symSize: 0x6C }
+  - { offsetInCU: 0x1C40, offset: 0x59521, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents initWithLink:domain:]', symObjAddr: 0x1800, symBinAddr: 0x5B48, symSize: 0x120 }
+  - { offsetInCU: 0x1D06, offset: 0x595E7, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkComponents componentsWithLink:domainURIPrefix:]', symObjAddr: 0x1920, symBinAddr: 0x5C68, symSize: 0x6C }
+  - { offsetInCU: 0x1D60, offset: 0x59641, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents initWithLink:domainURIPrefix:]', symObjAddr: 0x198C, symBinAddr: 0x5CD4, symSize: 0x170 }
+  - { offsetInCU: 0x1DE0, offset: 0x596C1, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkComponents shortenURL:options:completion:]', symObjAddr: 0x1AFC, symBinAddr: 0x5E44, symSize: 0x260 }
+  - { offsetInCU: 0x1EE6, offset: 0x597C7, size: 0x8, addend: 0x0, symName: '___58+[FIRDynamicLinkComponents shortenURL:options:completion:]_block_invoke', symObjAddr: 0x1D5C, symBinAddr: 0x60A4, symSize: 0x778 }
+  - { offsetInCU: 0x2067, offset: 0x59948, size: 0x8, addend: 0x0, symName: '___58+[FIRDynamicLinkComponents shortenURL:options:completion:]_block_invoke_2', symObjAddr: 0x24D4, symBinAddr: 0x681C, symSize: 0x14 }
+  - { offsetInCU: 0x20E4, offset: 0x599C5, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x24E8, symBinAddr: 0x6830, symSize: 0x44 }
+  - { offsetInCU: 0x210D, offset: 0x599EE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x252C, symBinAddr: 0x6874, symSize: 0x38 }
+  - { offsetInCU: 0x212C, offset: 0x59A0D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x2564, symBinAddr: 0x68AC, symSize: 0x10 }
+  - { offsetInCU: 0x2155, offset: 0x59A36, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x2574, symBinAddr: 0x68BC, symSize: 0x8 }
+  - { offsetInCU: 0x2174, offset: 0x59A55, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents shortenWithCompletion:]', symObjAddr: 0x257C, symBinAddr: 0x68C4, symSize: 0x188 }
+  - { offsetInCU: 0x2228, offset: 0x59B09, size: 0x8, addend: 0x0, symName: '___31-[FIRDynamicLinkComponents url]_block_invoke', symObjAddr: 0x28C8, symBinAddr: 0x6C10, symSize: 0x48 }
+  - { offsetInCU: 0x2297, offset: 0x59B78, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x2910, symBinAddr: 0x6C58, symSize: 0x8 }
+  - { offsetInCU: 0x22BE, offset: 0x59B9F, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkComponents sendHTTPRequest:completion:]', symObjAddr: 0x2918, symBinAddr: 0x6C60, symSize: 0xE8 }
+  - { offsetInCU: 0x2332, offset: 0x59C13, size: 0x8, addend: 0x0, symName: '___55+[FIRDynamicLinkComponents sendHTTPRequest:completion:]_block_invoke', symObjAddr: 0x2A00, symBinAddr: 0x6D48, symSize: 0x10 }
+  - { offsetInCU: 0x23BA, offset: 0x59C9B, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents analyticsParameters]', symObjAddr: 0x2D14, symBinAddr: 0x705C, symSize: 0x8 }
+  - { offsetInCU: 0x23F2, offset: 0x59CD3, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setAnalyticsParameters:]', symObjAddr: 0x2D1C, symBinAddr: 0x7064, symSize: 0xC }
+  - { offsetInCU: 0x2434, offset: 0x59D15, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents socialMetaTagParameters]', symObjAddr: 0x2D28, symBinAddr: 0x7070, symSize: 0x8 }
+  - { offsetInCU: 0x246C, offset: 0x59D4D, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setSocialMetaTagParameters:]', symObjAddr: 0x2D30, symBinAddr: 0x7078, symSize: 0xC }
+  - { offsetInCU: 0x24AE, offset: 0x59D8F, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents iOSParameters]', symObjAddr: 0x2D3C, symBinAddr: 0x7084, symSize: 0x8 }
+  - { offsetInCU: 0x24E6, offset: 0x59DC7, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setIOSParameters:]', symObjAddr: 0x2D44, symBinAddr: 0x708C, symSize: 0xC }
+  - { offsetInCU: 0x2528, offset: 0x59E09, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents iTunesConnectParameters]', symObjAddr: 0x2D50, symBinAddr: 0x7098, symSize: 0x8 }
+  - { offsetInCU: 0x2560, offset: 0x59E41, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setITunesConnectParameters:]', symObjAddr: 0x2D58, symBinAddr: 0x70A0, symSize: 0xC }
+  - { offsetInCU: 0x25A2, offset: 0x59E83, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents androidParameters]', symObjAddr: 0x2D64, symBinAddr: 0x70AC, symSize: 0x8 }
+  - { offsetInCU: 0x25DA, offset: 0x59EBB, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setAndroidParameters:]', symObjAddr: 0x2D6C, symBinAddr: 0x70B4, symSize: 0xC }
+  - { offsetInCU: 0x261C, offset: 0x59EFD, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents navigationInfoParameters]', symObjAddr: 0x2D78, symBinAddr: 0x70C0, symSize: 0x8 }
+  - { offsetInCU: 0x2654, offset: 0x59F35, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setNavigationInfoParameters:]', symObjAddr: 0x2D80, symBinAddr: 0x70C8, symSize: 0xC }
+  - { offsetInCU: 0x2696, offset: 0x59F77, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents otherPlatformParameters]', symObjAddr: 0x2D8C, symBinAddr: 0x70D4, symSize: 0x8 }
+  - { offsetInCU: 0x26CE, offset: 0x59FAF, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setOtherPlatformParameters:]', symObjAddr: 0x2D94, symBinAddr: 0x70DC, symSize: 0xC }
+  - { offsetInCU: 0x2710, offset: 0x59FF1, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents options]', symObjAddr: 0x2DA0, symBinAddr: 0x70E8, symSize: 0x8 }
+  - { offsetInCU: 0x2748, offset: 0x5A029, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setOptions:]', symObjAddr: 0x2DA8, symBinAddr: 0x70F0, symSize: 0xC }
+  - { offsetInCU: 0x278A, offset: 0x5A06B, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents link]', symObjAddr: 0x2DB4, symBinAddr: 0x70FC, symSize: 0x8 }
+  - { offsetInCU: 0x27C2, offset: 0x5A0A3, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setLink:]', symObjAddr: 0x2DBC, symBinAddr: 0x7104, symSize: 0xC }
+  - { offsetInCU: 0x2804, offset: 0x5A0E5, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents domain]', symObjAddr: 0x2DC8, symBinAddr: 0x7110, symSize: 0x8 }
+  - { offsetInCU: 0x283C, offset: 0x5A11D, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents setDomain:]', symObjAddr: 0x2DD0, symBinAddr: 0x7118, symSize: 0x8 }
+  - { offsetInCU: 0x287C, offset: 0x5A15D, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkComponents .cxx_destruct]', symObjAddr: 0x2DD8, symBinAddr: 0x7120, symSize: 0x90 }
+  - { offsetInCU: 0x27, offset: 0x5A5AA, size: 0x8, addend: 0x0, symName: _FIRDLCookieRetrievalURL, symObjAddr: 0x0, symBinAddr: 0x71B0, symSize: 0x150 }
+  - { offsetInCU: 0x41, offset: 0x5A5C4, size: 0x8, addend: 0x0, symName: _kFIRDLParameterDeepLinkIdentifier, symObjAddr: 0x20D8, symBinAddr: 0x18270, symSize: 0x0 }
+  - { offsetInCU: 0x8F, offset: 0x5A612, size: 0x8, addend: 0x0, symName: _kFIRDLParameterLink, symObjAddr: 0x20E0, symBinAddr: 0x18278, symSize: 0x0 }
+  - { offsetInCU: 0xA5, offset: 0x5A628, size: 0x8, addend: 0x0, symName: _kFIRDLParameterMinimumAppVersion, symObjAddr: 0x20E8, symBinAddr: 0x18280, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0x5A63E, size: 0x8, addend: 0x0, symName: _kFIRDLParameterCampaign, symObjAddr: 0x20F0, symBinAddr: 0x18288, symSize: 0x0 }
+  - { offsetInCU: 0xD1, offset: 0x5A654, size: 0x8, addend: 0x0, symName: _kFIRDLParameterContent, symObjAddr: 0x20F8, symBinAddr: 0x18290, symSize: 0x0 }
+  - { offsetInCU: 0xE7, offset: 0x5A66A, size: 0x8, addend: 0x0, symName: _kFIRDLParameterMedium, symObjAddr: 0x2100, symBinAddr: 0x18298, symSize: 0x0 }
+  - { offsetInCU: 0xFD, offset: 0x5A680, size: 0x8, addend: 0x0, symName: _kFIRDLParameterSource, symObjAddr: 0x2108, symBinAddr: 0x182A0, symSize: 0x0 }
+  - { offsetInCU: 0x113, offset: 0x5A696, size: 0x8, addend: 0x0, symName: _kFIRDLParameterTerm, symObjAddr: 0x2110, symBinAddr: 0x182A8, symSize: 0x0 }
+  - { offsetInCU: 0x129, offset: 0x5A6AC, size: 0x8, addend: 0x0, symName: _kFIRDLParameterMatchType, symObjAddr: 0x2118, symBinAddr: 0x182B0, symSize: 0x0 }
+  - { offsetInCU: 0x13F, offset: 0x5A6C2, size: 0x8, addend: 0x0, symName: _kFIRDLParameterInviteId, symObjAddr: 0x2120, symBinAddr: 0x182B8, symSize: 0x0 }
+  - { offsetInCU: 0x155, offset: 0x5A6D8, size: 0x8, addend: 0x0, symName: _kFIRDLParameterWeakMatchEndpoint, symObjAddr: 0x2128, symBinAddr: 0x182C0, symSize: 0x0 }
+  - { offsetInCU: 0x16B, offset: 0x5A6EE, size: 0x8, addend: 0x0, symName: _kFIRDLParameterMatchMessage, symObjAddr: 0x2130, symBinAddr: 0x182C8, symSize: 0x0 }
+  - { offsetInCU: 0x181, offset: 0x5A704, size: 0x8, addend: 0x0, symName: _kFIRDLParameterRequestIPVersion, symObjAddr: 0x2138, symBinAddr: 0x182D0, symSize: 0x0 }
+  - { offsetInCU: 0x197, offset: 0x5A71A, size: 0x8, addend: 0x0, symName: _FIRDLCustomDomains, symObjAddr: 0x6B58, symBinAddr: 0x1F010, symSize: 0x0 }
+  - { offsetInCU: 0x1A6, offset: 0x5A729, size: 0x8, addend: 0x0, symName: _FIRDLCookieRetrievalURL, symObjAddr: 0x0, symBinAddr: 0x71B0, symSize: 0x150 }
+  - { offsetInCU: 0x219, offset: 0x5A79C, size: 0x8, addend: 0x0, symName: _FIRDLDeviceModelName, symObjAddr: 0xB1C, symBinAddr: 0x7CCC, symSize: 0x40 }
+  - { offsetInCU: 0x23F, offset: 0x5A7C2, size: 0x8, addend: 0x0, symName: _FIRDLDeviceModelName.machineString, symObjAddr: 0x2248, symBinAddr: 0x1ED68, symSize: 0x0 }
+  - { offsetInCU: 0x255, offset: 0x5A7D8, size: 0x8, addend: 0x0, symName: _FIRDLDeviceModelName.onceToken, symObjAddr: 0x6B60, symBinAddr: 0x1F018, symSize: 0x0 }
+  - { offsetInCU: 0x295, offset: 0x5A818, size: 0x8, addend: 0x0, symName: _FIRDLMatchTypeStringFromServerString, symObjAddr: 0x14FC, symBinAddr: 0x86AC, symSize: 0x90 }
+  - { offsetInCU: 0x2BD, offset: 0x5A840, size: 0x8, addend: 0x0, symName: _FIRDLMatchTypeStringFromServerString.matchMap, symObjAddr: 0x6B68, symBinAddr: 0x1F020, symSize: 0x0 }
+  - { offsetInCU: 0x2D4, offset: 0x5A857, size: 0x8, addend: 0x0, symName: _FIRDLMatchTypeStringFromServerString.onceToken, symObjAddr: 0x6B70, symBinAddr: 0x1F028, symSize: 0x0 }
+  - { offsetInCU: 0x32E, offset: 0x5A8B1, size: 0x8, addend: 0x0, symName: _FIRDLURLQueryStringFromDictionary, symObjAddr: 0x150, symBinAddr: 0x7300, symSize: 0x13C }
+  - { offsetInCU: 0x39E, offset: 0x5A921, size: 0x8, addend: 0x0, symName: ___FIRDLURLQueryStringFromDictionary_block_invoke, symObjAddr: 0x28C, symBinAddr: 0x743C, symSize: 0xE4 }
+  - { offsetInCU: 0x474, offset: 0x5A9F7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0x370, symBinAddr: 0x7520, symSize: 0x44 }
+  - { offsetInCU: 0x49D, offset: 0x5AA20, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x3B4, symBinAddr: 0x7564, symSize: 0x3C }
+  - { offsetInCU: 0x4BC, offset: 0x5AA3F, size: 0x8, addend: 0x0, symName: _FIRDLDictionaryFromQuery, symObjAddr: 0x3F0, symBinAddr: 0x75A0, symSize: 0x1EC }
+  - { offsetInCU: 0x56C, offset: 0x5AAEF, size: 0x8, addend: 0x0, symName: _FIRDLDeepLinkURLWithInviteID, symObjAddr: 0x5DC, symBinAddr: 0x778C, symSize: 0x31C }
+  - { offsetInCU: 0x69D, offset: 0x5AC20, size: 0x8, addend: 0x0, symName: _FIRDLOSVersionSupported, symObjAddr: 0x8F8, symBinAddr: 0x7AA8, symSize: 0xA8 }
+  - { offsetInCU: 0x6D8, offset: 0x5AC5B, size: 0x8, addend: 0x0, symName: _FIRDLAppInstallationDate, symObjAddr: 0x9A0, symBinAddr: 0x7B50, symSize: 0x17C }
+  - { offsetInCU: 0x761, offset: 0x5ACE4, size: 0x8, addend: 0x0, symName: ___FIRDLDeviceModelName_block_invoke, symObjAddr: 0xB5C, symBinAddr: 0x7D0C, symSize: 0xA8 }
+  - { offsetInCU: 0x84D, offset: 0x5ADD0, size: 0x8, addend: 0x0, symName: _FIRDLDeviceLocale, symObjAddr: 0xC04, symBinAddr: 0x7DB4, symSize: 0x7C }
+  - { offsetInCU: 0x867, offset: 0x5ADEA, size: 0x8, addend: 0x0, symName: _FIRDLDeviceLocaleRaw, symObjAddr: 0xC80, symBinAddr: 0x7E30, symSize: 0x4C }
+  - { offsetInCU: 0x881, offset: 0x5AE04, size: 0x8, addend: 0x0, symName: _FIRDLDeviceTimezone, symObjAddr: 0xCCC, symBinAddr: 0x7E7C, symSize: 0x4C }
+  - { offsetInCU: 0x8AC, offset: 0x5AE2F, size: 0x8, addend: 0x0, symName: _FIRDLIsURLForAllowedCustomDomain, symObjAddr: 0xD18, symBinAddr: 0x7EC8, symSize: 0x44C }
+  - { offsetInCU: 0x933, offset: 0x5AEB6, size: 0x8, addend: 0x0, symName: _FIRDLIsAValidDLWithFDLDomain, symObjAddr: 0x1164, symBinAddr: 0x8314, symSize: 0x138 }
+  - { offsetInCU: 0x982, offset: 0x5AF05, size: 0x8, addend: 0x0, symName: _FIRDLCanParseUniversalLinkURL, symObjAddr: 0x129C, symBinAddr: 0x844C, symSize: 0x150 }
+  - { offsetInCU: 0x9E8, offset: 0x5AF6B, size: 0x8, addend: 0x0, symName: _FIRDLMatchesShortLinkFormat, symObjAddr: 0x13EC, symBinAddr: 0x859C, symSize: 0x110 }
+  - { offsetInCU: 0xA7D, offset: 0x5B000, size: 0x8, addend: 0x0, symName: ___FIRDLMatchTypeStringFromServerString_block_invoke, symObjAddr: 0x158C, symBinAddr: 0x873C, symSize: 0xB8 }
+  - { offsetInCU: 0xAA6, offset: 0x5B029, size: 0x8, addend: 0x0, symName: _FIRDLAddToAllowListForCustomDomainsArray, symObjAddr: 0x1644, symBinAddr: 0x87F4, symSize: 0x200 }
+  - { offsetInCU: 0x27, offset: 0x5B2FA, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 initWithNetworkingService:URLScheme:APIKey:FDLSDKVersion:delegate:]', symObjAddr: 0x0, symBinAddr: 0x89F4, symSize: 0x13C }
+  - { offsetInCU: 0x167, offset: 0x5B43A, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 initWithNetworkingService:URLScheme:APIKey:FDLSDKVersion:delegate:]', symObjAddr: 0x0, symBinAddr: 0x89F4, symSize: 0x13C }
+  - { offsetInCU: 0x1EE, offset: 0x5B4C1, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 retrievePendingDynamicLink]', symObjAddr: 0x13C, symBinAddr: 0x8B30, symSize: 0x10 }
+  - { offsetInCU: 0x21F, offset: 0x5B4F2, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 javaScriptExecutor:completedExecutionWithResult:]', symObjAddr: 0x14C, symBinAddr: 0x8B40, symSize: 0x5C }
+  - { offsetInCU: 0x26E, offset: 0x5B541, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 javaScriptExecutor:failedWithError:]', symObjAddr: 0x1A8, symBinAddr: 0x8B9C, symSize: 0x40 }
+  - { offsetInCU: 0x2C6, offset: 0x5B599, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 retrievePendingDynamicLinkInternal]', symObjAddr: 0x1E8, symBinAddr: 0x8BDC, symSize: 0x304 }
+  - { offsetInCU: 0x3ED, offset: 0x5B6C0, size: 0x8, addend: 0x0, symName: '___68-[FIRDLDefaultRetrievalProcessV2 retrievePendingDynamicLinkInternal]_block_invoke', symObjAddr: 0x4EC, symBinAddr: 0x8EE0, symSize: 0xFC }
+  - { offsetInCU: 0x497, offset: 0x5B76A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x5E8, symBinAddr: 0x8FDC, symSize: 0xC }
+  - { offsetInCU: 0x4C0, offset: 0x5B793, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x5F4, symBinAddr: 0x8FE8, symSize: 0x8 }
+  - { offsetInCU: 0x4DF, offset: 0x5B7B2, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 handleRetrievalProcessWithResult:]', symObjAddr: 0x5FC, symBinAddr: 0x8FF0, symSize: 0xD0 }
+  - { offsetInCU: 0x541, offset: 0x5B814, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 uniqueMatchLinkToCheck]', symObjAddr: 0x6CC, symBinAddr: 0x90C0, symSize: 0x158 }
+  - { offsetInCU: 0x623, offset: 0x5B8F6, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 retrievePasteboardContents]', symObjAddr: 0x824, symBinAddr: 0x9218, symSize: 0x90 }
+  - { offsetInCU: 0x66A, offset: 0x5B93D, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 isPasteboardRetrievalEnabled]', symObjAddr: 0x8B4, symBinAddr: 0x92A8, symSize: 0xA4 }
+  - { offsetInCU: 0x6AD, offset: 0x5B980, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 clearUsedUniqueMatchLinkToCheckFromClipboard]', symObjAddr: 0x958, symBinAddr: 0x934C, symSize: 0x6C }
+  - { offsetInCU: 0x6E0, offset: 0x5B9B3, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 fetchLocaleFromWebView]', symObjAddr: 0x9C4, symBinAddr: 0x93B8, symSize: 0x58 }
+  - { offsetInCU: 0x723, offset: 0x5B9F6, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 delegate]', symObjAddr: 0xA1C, symBinAddr: 0x9410, symSize: 0x18 }
+  - { offsetInCU: 0x75A, offset: 0x5BA2D, size: 0x8, addend: 0x0, symName: '-[FIRDLDefaultRetrievalProcessV2 .cxx_destruct]', symObjAddr: 0xA34, symBinAddr: 0x9428, symSize: 0x74 }
+  - { offsetInCU: 0x27, offset: 0x5BCC1, size: 0x8, addend: 0x0, symName: _FIRDLTypeofDeviceHeuristicsJSMethodNameString, symObjAddr: 0x0, symBinAddr: 0x949C, symSize: 0x40 }
+  - { offsetInCU: 0x3A, offset: 0x5BCD4, size: 0x8, addend: 0x0, symName: _FIRDLTypeofDeviceHeuristicsJSMethodNameString, symObjAddr: 0x0, symBinAddr: 0x949C, symSize: 0x40 }
+  - { offsetInCU: 0x60, offset: 0x5BCFA, size: 0x8, addend: 0x0, symName: _FIRDLTypeofDeviceHeuristicsJSMethodNameString.methodName, symObjAddr: 0x4AE8, symBinAddr: 0x1F030, symSize: 0x0 }
+  - { offsetInCU: 0x76, offset: 0x5BD10, size: 0x8, addend: 0x0, symName: _FIRDLTypeofDeviceHeuristicsJSMethodNameString.onceToken, symObjAddr: 0x4AF0, symBinAddr: 0x1F038, symSize: 0x0 }
+  - { offsetInCU: 0xA3, offset: 0x5BD3D, size: 0x8, addend: 0x0, symName: _GINDeviceHeuristicsJSMethodString, symObjAddr: 0x90, symBinAddr: 0x952C, symSize: 0x40 }
+  - { offsetInCU: 0xC9, offset: 0x5BD63, size: 0x8, addend: 0x0, symName: _GINDeviceHeuristicsJSMethodString.methodString, symObjAddr: 0x4AF8, symBinAddr: 0x1F040, symSize: 0x0 }
+  - { offsetInCU: 0xDF, offset: 0x5BD79, size: 0x8, addend: 0x0, symName: _GINDeviceHeuristicsJSMethodString.onceToken, symObjAddr: 0x4B00, symBinAddr: 0x1F048, symSize: 0x0 }
+  - { offsetInCU: 0x1D6, offset: 0x5BE70, size: 0x8, addend: 0x0, symName: ___FIRDLTypeofDeviceHeuristicsJSMethodNameString_block_invoke, symObjAddr: 0x40, symBinAddr: 0x94DC, symSize: 0x50 }
+  - { offsetInCU: 0x1FD, offset: 0x5BE97, size: 0x8, addend: 0x0, symName: ___GINDeviceHeuristicsJSMethodString_block_invoke, symObjAddr: 0xD0, symBinAddr: 0x956C, symSize: 0x50 }
+  - { offsetInCU: 0x224, offset: 0x5BEBE, size: 0x8, addend: 0x0, symName: '-[FIRDLJavaScriptExecutor initWithDelegate:script:]', symObjAddr: 0x120, symBinAddr: 0x95BC, symSize: 0xAC }
+  - { offsetInCU: 0x27B, offset: 0x5BF15, size: 0x8, addend: 0x0, symName: '-[FIRDLJavaScriptExecutor start]', symObjAddr: 0x1CC, symBinAddr: 0x9668, symSize: 0x94 }
+  - { offsetInCU: 0x2BE, offset: 0x5BF58, size: 0x8, addend: 0x0, symName: '-[FIRDLJavaScriptExecutor handleExecutionResult:]', symObjAddr: 0x260, symBinAddr: 0x96FC, symSize: 0x5C }
+  - { offsetInCU: 0x301, offset: 0x5BF9B, size: 0x8, addend: 0x0, symName: '-[FIRDLJavaScriptExecutor handleExecutionError:]', symObjAddr: 0x2BC, symBinAddr: 0x9758, symSize: 0x88 }
+  - { offsetInCU: 0x344, offset: 0x5BFDE, size: 0x8, addend: 0x0, symName: '-[FIRDLJavaScriptExecutor cleanup]', symObjAddr: 0x344, symBinAddr: 0x97E0, symSize: 0x30 }
+  - { offsetInCU: 0x377, offset: 0x5C011, size: 0x8, addend: 0x0, symName: '-[FIRDLJavaScriptExecutor webView:didFinishNavigation:]', symObjAddr: 0x374, symBinAddr: 0x9810, symSize: 0x10C }
+  - { offsetInCU: 0x3E8, offset: 0x5C082, size: 0x8, addend: 0x0, symName: '___55-[FIRDLJavaScriptExecutor webView:didFinishNavigation:]_block_invoke', symObjAddr: 0x480, symBinAddr: 0x991C, symSize: 0x134 }
+  - { offsetInCU: 0x461, offset: 0x5C0FB, size: 0x8, addend: 0x0, symName: '___55-[FIRDLJavaScriptExecutor webView:didFinishNavigation:]_block_invoke_2', symObjAddr: 0x5B4, symBinAddr: 0x9A50, symSize: 0x78 }
+  - { offsetInCU: 0x4D7, offset: 0x5C171, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40w, symObjAddr: 0x640, symBinAddr: 0x9AC8, symSize: 0x30 }
+  - { offsetInCU: 0x500, offset: 0x5C19A, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40w, symObjAddr: 0x670, symBinAddr: 0x9AF8, symSize: 0x28 }
+  - { offsetInCU: 0x51F, offset: 0x5C1B9, size: 0x8, addend: 0x0, symName: '-[FIRDLJavaScriptExecutor webView:didFailNavigation:withError:]', symObjAddr: 0x698, symBinAddr: 0x9B20, symSize: 0x8 }
+  - { offsetInCU: 0x578, offset: 0x5C212, size: 0x8, addend: 0x0, symName: '-[FIRDLJavaScriptExecutor .cxx_destruct]', symObjAddr: 0x6A0, symBinAddr: 0x9B28, symSize: 0x38 }
+  - { offsetInCU: 0x27, offset: 0x5C475, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessFactory initWithNetworkingService:URLScheme:APIKey:FDLSDKVersion:delegate:]', symObjAddr: 0x0, symBinAddr: 0x9B60, symSize: 0x120 }
+  - { offsetInCU: 0xCE, offset: 0x5C51C, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessFactory initWithNetworkingService:URLScheme:APIKey:FDLSDKVersion:delegate:]', symObjAddr: 0x0, symBinAddr: 0x9B60, symSize: 0x120 }
+  - { offsetInCU: 0x155, offset: 0x5C5A3, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessFactory automaticRetrievalProcess]', symObjAddr: 0x120, symBinAddr: 0x9C80, symSize: 0x38 }
+  - { offsetInCU: 0x18C, offset: 0x5C5DA, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessFactory .cxx_destruct]', symObjAddr: 0x158, symBinAddr: 0x9CB8, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x5C65A, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessResult initWithDynamicLink:error:message:matchSource:]', symObjAddr: 0x0, symBinAddr: 0x9D0C, symSize: 0x10C }
+  - { offsetInCU: 0x1B5, offset: 0x5C7E8, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessResult initWithDynamicLink:error:message:matchSource:]', symObjAddr: 0x0, symBinAddr: 0x9D0C, symSize: 0x10C }
+  - { offsetInCU: 0x22C, offset: 0x5C85F, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessResult URLWithCustomURLScheme:]', symObjAddr: 0x10C, symBinAddr: 0x9E18, symSize: 0x134 }
+  - { offsetInCU: 0x2F1, offset: 0x5C924, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessResult dynamicLink]', symObjAddr: 0x240, symBinAddr: 0x9F4C, symSize: 0x8 }
+  - { offsetInCU: 0x328, offset: 0x5C95B, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessResult error]', symObjAddr: 0x248, symBinAddr: 0x9F54, symSize: 0x8 }
+  - { offsetInCU: 0x35F, offset: 0x5C992, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessResult message]', symObjAddr: 0x250, symBinAddr: 0x9F5C, symSize: 0x8 }
+  - { offsetInCU: 0x396, offset: 0x5C9C9, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessResult matchSource]', symObjAddr: 0x258, symBinAddr: 0x9F64, symSize: 0x8 }
+  - { offsetInCU: 0x3CD, offset: 0x5CA00, size: 0x8, addend: 0x0, symName: '-[FIRDLRetrievalProcessResult .cxx_destruct]', symObjAddr: 0x260, symBinAddr: 0x9F6C, symSize: 0x48 }
+  - { offsetInCU: 0x27, offset: 0x5CAAE, size: 0x8, addend: 0x0, symName: _FIRDLLogEventToScion, symObjAddr: 0x0, symBinAddr: 0x9FB4, symSize: 0x120 }
+  - { offsetInCU: 0x68, offset: 0x5CAEF, size: 0x8, addend: 0x0, symName: _FIRDLLogEventToScion, symObjAddr: 0x0, symBinAddr: 0x9FB4, symSize: 0x120 }
+  - { offsetInCU: 0x27, offset: 0x5CBD6, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink description]', symObjAddr: 0x0, symBinAddr: 0xA0D4, symSize: 0x114 }
+  - { offsetInCU: 0x41, offset: 0x5CBF0, size: 0x8, addend: 0x0, symName: _FDLUTMParamPrefix, symObjAddr: 0xB80, symBinAddr: 0x18438, symSize: 0x0 }
+  - { offsetInCU: 0x55, offset: 0x5CC04, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLink matchTypeWithString:]', symObjAddr: 0x61C, symBinAddr: 0xA6F0, symSize: 0x88 }
+  - { offsetInCU: 0x7F, offset: 0x5CC2E, size: 0x8, addend: 0x0, symName: '_matchTypeWithString:.matchMap', symObjAddr: 0x4BA8, symBinAddr: 0x1F050, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0x5CC44, size: 0x8, addend: 0x0, symName: '_matchTypeWithString:.onceToken', symObjAddr: 0x4BB0, symBinAddr: 0x1F058, symSize: 0x0 }
+  - { offsetInCU: 0x248, offset: 0x5CDF7, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink description]', symObjAddr: 0x0, symBinAddr: 0xA0D4, symSize: 0x114 }
+  - { offsetInCU: 0x2B3, offset: 0x5CE62, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink initWithParametersDictionary:]', symObjAddr: 0x114, symBinAddr: 0xA1E8, symSize: 0x240 }
+  - { offsetInCU: 0x319, offset: 0x5CEC8, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink setUrl:]', symObjAddr: 0x354, symBinAddr: 0xA428, symSize: 0x64 }
+  - { offsetInCU: 0x35C, offset: 0x5CF0B, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink setMinimumAppVersion:]', symObjAddr: 0x3B8, symBinAddr: 0xA48C, symSize: 0x48 }
+  - { offsetInCU: 0x39F, offset: 0x5CF4E, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink setInviteId:]', symObjAddr: 0x400, symBinAddr: 0xA4D4, symSize: 0x48 }
+  - { offsetInCU: 0x3E2, offset: 0x5CF91, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink setWeakMatchEndpoint:]', symObjAddr: 0x448, symBinAddr: 0xA51C, symSize: 0x48 }
+  - { offsetInCU: 0x425, offset: 0x5CFD4, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink setMatchType:]', symObjAddr: 0x490, symBinAddr: 0xA564, symSize: 0x54 }
+  - { offsetInCU: 0x468, offset: 0x5D017, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink setMatchMessage:]', symObjAddr: 0x4E4, symBinAddr: 0xA5B8, symSize: 0x48 }
+  - { offsetInCU: 0x4AB, offset: 0x5D05A, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink setParametersDictionaryValue:forKey:]', symObjAddr: 0x52C, symBinAddr: 0xA600, symSize: 0xB8 }
+  - { offsetInCU: 0x50E, offset: 0x5D0BD, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink matchConfidence]', symObjAddr: 0x5E4, symBinAddr: 0xA6B8, symSize: 0x10 }
+  - { offsetInCU: 0x545, offset: 0x5D0F4, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLink stringWithMatchType:]', symObjAddr: 0x5F4, symBinAddr: 0xA6C8, symSize: 0x28 }
+  - { offsetInCU: 0x5CD, offset: 0x5D17C, size: 0x8, addend: 0x0, symName: '___38+[FIRDynamicLink matchTypeWithString:]_block_invoke', symObjAddr: 0x6A4, symBinAddr: 0xA778, symSize: 0x14C }
+  - { offsetInCU: 0x5F4, offset: 0x5D1A3, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLink extractUTMParams:]', symObjAddr: 0x7F0, symBinAddr: 0xA8C4, symSize: 0x18C }
+  - { offsetInCU: 0x666, offset: 0x5D215, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink url]', symObjAddr: 0x97C, symBinAddr: 0xAA50, symSize: 0x8 }
+  - { offsetInCU: 0x69D, offset: 0x5D24C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink matchType]', symObjAddr: 0x984, symBinAddr: 0xAA58, symSize: 0x8 }
+  - { offsetInCU: 0x6D4, offset: 0x5D283, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink utmParametersDictionary]', symObjAddr: 0x98C, symBinAddr: 0xAA60, symSize: 0x8 }
+  - { offsetInCU: 0x70B, offset: 0x5D2BA, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink minimumAppVersion]', symObjAddr: 0x994, symBinAddr: 0xAA68, symSize: 0x8 }
+  - { offsetInCU: 0x742, offset: 0x5D2F1, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink inviteId]', symObjAddr: 0x99C, symBinAddr: 0xAA70, symSize: 0x8 }
+  - { offsetInCU: 0x779, offset: 0x5D328, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink weakMatchEndpoint]', symObjAddr: 0x9A4, symBinAddr: 0xAA78, symSize: 0x8 }
+  - { offsetInCU: 0x7B0, offset: 0x5D35F, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink matchMessage]', symObjAddr: 0x9AC, symBinAddr: 0xAA80, symSize: 0x8 }
+  - { offsetInCU: 0x7E7, offset: 0x5D396, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink parametersDictionary]', symObjAddr: 0x9B4, symBinAddr: 0xAA88, symSize: 0x8 }
+  - { offsetInCU: 0x81E, offset: 0x5D3CD, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLink .cxx_destruct]', symObjAddr: 0x9BC, symBinAddr: 0xAA90, symSize: 0x6C }
+  - { offsetInCU: 0x27, offset: 0x5D4E9, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkComponentsKeyProvider APIKey]', symObjAddr: 0x0, symBinAddr: 0xAAFC, symSize: 0x80 }
+  - { offsetInCU: 0x5F, offset: 0x5D521, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkComponentsKeyProvider APIKey]', symObjAddr: 0x0, symBinAddr: 0xAAFC, symSize: 0x80 }
+  - { offsetInCU: 0x27, offset: 0x5D5AB, size: 0x8, addend: 0x0, symName: _FIRURLParameterString, symObjAddr: 0x0, symBinAddr: 0xAB7C, symSize: 0x90 }
+  - { offsetInCU: 0x41, offset: 0x5D5C5, size: 0x8, addend: 0x0, symName: _kApiaryRestBaseUrl, symObjAddr: 0x23A0, symBinAddr: 0x18478, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x5D5E5, size: 0x8, addend: 0x0, symName: _kFDLResolvedLinkDeepLinkURLKey, symObjAddr: 0x23A8, symBinAddr: 0x18480, symSize: 0x0 }
+  - { offsetInCU: 0x77, offset: 0x5D5FB, size: 0x8, addend: 0x0, symName: _kFDLResolvedLinkMinAppVersionKey, symObjAddr: 0x23B0, symBinAddr: 0x18488, symSize: 0x0 }
+  - { offsetInCU: 0x106, offset: 0x5D68A, size: 0x8, addend: 0x0, symName: _FIRURLParameterString, symObjAddr: 0x0, symBinAddr: 0xAB7C, symSize: 0x90 }
+  - { offsetInCU: 0x141, offset: 0x5D6C5, size: 0x8, addend: 0x0, symName: _FIRDynamicLinkAPIKeyParameter, symObjAddr: 0x90, symBinAddr: 0xAC0C, symSize: 0x2C }
+  - { offsetInCU: 0x17A, offset: 0x5D6FE, size: 0x8, addend: 0x0, symName: _FIRMakeHTTPRequest, symObjAddr: 0xBC, symBinAddr: 0xAC38, symSize: 0x114 }
+  - { offsetInCU: 0x1E1, offset: 0x5D765, size: 0x8, addend: 0x0, symName: ___FIRMakeHTTPRequest_block_invoke, symObjAddr: 0x1D0, symBinAddr: 0xAD4C, symSize: 0xC }
+  - { offsetInCU: 0x26B, offset: 0x5D7EF, size: 0x8, addend: 0x0, symName: _FIRDataWithDictionary, symObjAddr: 0x1F4, symBinAddr: 0xAD58, symSize: 0x18 }
+  - { offsetInCU: 0x294, offset: 0x5D818, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNetworking initWithAPIKey:URLScheme:]', symObjAddr: 0x20C, symBinAddr: 0xAD70, symSize: 0xB0 }
+  - { offsetInCU: 0x2EB, offset: 0x5D86F, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinkNetworking extractErrorForShortLink:data:response:error:]', symObjAddr: 0x2BC, symBinAddr: 0xAE20, symSize: 0x2E8 }
+  - { offsetInCU: 0x3B4, offset: 0x5D938, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNetworking resolveShortLink:FDLSDKVersion:completion:]', symObjAddr: 0x5A4, symBinAddr: 0xB108, symSize: 0x244 }
+  - { offsetInCU: 0x475, offset: 0x5D9F9, size: 0x8, addend: 0x0, symName: '___70-[FIRDynamicLinkNetworking resolveShortLink:FDLSDKVersion:completion:]_block_invoke', symObjAddr: 0x7E8, symBinAddr: 0xB34C, symSize: 0x2DC }
+  - { offsetInCU: 0x6C7, offset: 0x5DC4B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0xAC4, symBinAddr: 0xB628, symSize: 0x3C }
+  - { offsetInCU: 0x6F0, offset: 0x5DC74, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0xB00, symBinAddr: 0xB664, symSize: 0x30 }
+  - { offsetInCU: 0x70F, offset: 0x5DC93, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNetworking retrievePendingDynamicLinkWithIOSVersion:resolutionHeight:resolutionWidth:locale:localeRaw:localeFromWebView:timezone:modelName:FDLSDKVersion:appInstallationDate:uniqueMatchVisualStyle:retrievalProcessType:uniqueMatchLinkToCheck:handler:]', symObjAddr: 0xB30, symBinAddr: 0xB694, symSize: 0x368 }
+  - { offsetInCU: 0x842, offset: 0x5DDC6, size: 0x8, addend: 0x0, symName: '___265-[FIRDynamicLinkNetworking retrievePendingDynamicLinkWithIOSVersion:resolutionHeight:resolutionWidth:locale:localeRaw:localeFromWebView:timezone:modelName:FDLSDKVersion:appInstallationDate:uniqueMatchVisualStyle:retrievalProcessType:uniqueMatchLinkToCheck:handler:]_block_invoke', symObjAddr: 0xE98, symBinAddr: 0xB9FC, symSize: 0x334 }
+  - { offsetInCU: 0x918, offset: 0x5DE9C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNetworking convertInvitation:handler:]', symObjAddr: 0x11CC, symBinAddr: 0xBD30, symSize: 0x214 }
+  - { offsetInCU: 0x9AF, offset: 0x5DF33, size: 0x8, addend: 0x0, symName: '___54-[FIRDynamicLinkNetworking convertInvitation:handler:]_block_invoke', symObjAddr: 0x13E0, symBinAddr: 0xBF44, symSize: 0xA4 }
+  - { offsetInCU: 0xA55, offset: 0x5DFD9, size: 0x8, addend: 0x0, symName: '___54-[FIRDynamicLinkNetworking convertInvitation:handler:]_block_invoke_2', symObjAddr: 0x1484, symBinAddr: 0xBFE8, symSize: 0x10 }
+  - { offsetInCU: 0xAB0, offset: 0x5E034, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x1494, symBinAddr: 0xBFF8, symSize: 0x34 }
+  - { offsetInCU: 0xAD9, offset: 0x5E05D, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x14C8, symBinAddr: 0xC02C, symSize: 0x28 }
+  - { offsetInCU: 0xAF8, offset: 0x5E07C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNetworking sendRequestWithBaseURLString:requestBody:endpointPath:parserBlock:completion:]', symObjAddr: 0x14F0, symBinAddr: 0xC054, symSize: 0x1A4 }
+  - { offsetInCU: 0xBB9, offset: 0x5E13D, size: 0x8, addend: 0x0, symName: '___105-[FIRDynamicLinkNetworking sendRequestWithBaseURLString:requestBody:endpointPath:parserBlock:completion:]_block_invoke', symObjAddr: 0x1694, symBinAddr: 0xC1F8, symSize: 0x1A4 }
+  - { offsetInCU: 0xCD3, offset: 0x5E257, size: 0x8, addend: 0x0, symName: '___105-[FIRDynamicLinkNetworking sendRequestWithBaseURLString:requestBody:endpointPath:parserBlock:completion:]_block_invoke_2', symObjAddr: 0x1838, symBinAddr: 0xC39C, symSize: 0x18 }
+  - { offsetInCU: 0xD3B, offset: 0x5E2BF, size: 0x8, addend: 0x0, symName: '___105-[FIRDynamicLinkNetworking sendRequestWithBaseURLString:requestBody:endpointPath:parserBlock:completion:]_block_invoke_3', symObjAddr: 0x1850, symBinAddr: 0xC3B4, symSize: 0x14 }
+  - { offsetInCU: 0xDB8, offset: 0x5E33C, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48b, symObjAddr: 0x18E0, symBinAddr: 0xC3C8, symSize: 0x44 }
+  - { offsetInCU: 0xE1B, offset: 0x5E39F, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNetworking executeOnePlatformRequest:forURL:completionHandler:]', symObjAddr: 0x1924, symBinAddr: 0xC40C, symSize: 0x15C }
+  - { offsetInCU: 0xEEC, offset: 0x5E470, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinkNetworking .cxx_destruct]', symObjAddr: 0x1A80, symBinAddr: 0xC568, symSize: 0x30 }
+  - { offsetInCU: 0x27, offset: 0x5EB51, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks load]', symObjAddr: 0x0, symBinAddr: 0xC598, symSize: 0x18 }
+  - { offsetInCU: 0x41, offset: 0x5EB6B, size: 0x8, addend: 0x0, symName: _kFIRDLReadDeepLinkAfterInstallKey, symObjAddr: 0x3878, symBinAddr: 0x18560, symSize: 0x0 }
+  - { offsetInCU: 0x27A, offset: 0x5EDA4, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks load]', symObjAddr: 0x0, symBinAddr: 0xC598, symSize: 0x18 }
+  - { offsetInCU: 0x2AD, offset: 0x5EDD7, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks componentsToRegister]', symObjAddr: 0x18, symBinAddr: 0xC5B0, symSize: 0x118 }
+  - { offsetInCU: 0x310, offset: 0x5EE3A, size: 0x8, addend: 0x0, symName: '___39+[FIRDynamicLinks componentsToRegister]_block_invoke', symObjAddr: 0x130, symBinAddr: 0xC6C8, symSize: 0x10C }
+  - { offsetInCU: 0x3CC, offset: 0x5EEF6, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks configureDynamicLinks:]', symObjAddr: 0x23C, symBinAddr: 0xC7D4, symSize: 0x2D4 }
+  - { offsetInCU: 0x495, offset: 0x5EFBF, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks initWithAnalytics:]', symObjAddr: 0x510, symBinAddr: 0xCAA8, symSize: 0x78 }
+  - { offsetInCU: 0x4DC, offset: 0x5F006, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks dynamicLinks]', symObjAddr: 0x588, symBinAddr: 0xCB20, symSize: 0x88 }
+  - { offsetInCU: 0x52F, offset: 0x5F059, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks init]', symObjAddr: 0x610, symBinAddr: 0xCBA8, symSize: 0x50 }
+  - { offsetInCU: 0x566, offset: 0x5F090, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks checkForCustomDomainEntriesInInfoPlist]', symObjAddr: 0x660, symBinAddr: 0xCBF8, symSize: 0x7C }
+  - { offsetInCU: 0x5DE, offset: 0x5F108, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks setUpWithLaunchOptions:apiKey:urlScheme:userDefaults:]', symObjAddr: 0x6DC, symBinAddr: 0xCC74, symSize: 0x1A4 }
+  - { offsetInCU: 0x681, offset: 0x5F1AB, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks checkForPendingDynamicLinkUsingExperimentalRetrievalProcess]', symObjAddr: 0x880, symBinAddr: 0xCE18, symSize: 0x4 }
+  - { offsetInCU: 0x6B3, offset: 0x5F1DD, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks checkForPendingDynamicLink]', symObjAddr: 0x884, symBinAddr: 0xCE1C, symSize: 0x180 }
+  - { offsetInCU: 0x737, offset: 0x5F261, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks sharedInstance]', symObjAddr: 0xA04, symBinAddr: 0xCF9C, symSize: 0x4 }
+  - { offsetInCU: 0x76D, offset: 0x5F297, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks setUpWithLaunchOptions:apiKey:clientID:urlScheme:userDefaults:]', symObjAddr: 0xA08, symBinAddr: 0xCFA0, symSize: 0xC }
+  - { offsetInCU: 0x7F0, offset: 0x5F31A, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks checkForPendingDeepLink]', symObjAddr: 0xA14, symBinAddr: 0xCFAC, symSize: 0x4 }
+  - { offsetInCU: 0x822, offset: 0x5F34C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks deepLinkFromCustomSchemeURL:]', symObjAddr: 0xA18, symBinAddr: 0xCFB0, symSize: 0x4 }
+  - { offsetInCU: 0x867, offset: 0x5F391, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks deepLinkFromUniversalLinkURL:]', symObjAddr: 0xA1C, symBinAddr: 0xCFB4, symSize: 0x4 }
+  - { offsetInCU: 0x8AC, offset: 0x5F3D6, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks shouldHandleDeepLinkFromCustomSchemeURL:]', symObjAddr: 0xA20, symBinAddr: 0xCFB8, symSize: 0x4 }
+  - { offsetInCU: 0x8F1, offset: 0x5F41B, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks shouldHandleDynamicLinkFromCustomSchemeURL:]', symObjAddr: 0xA24, symBinAddr: 0xCFBC, symSize: 0xB4 }
+  - { offsetInCU: 0x93A, offset: 0x5F464, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks dynamicLinkFromCustomSchemeURL:]', symObjAddr: 0xAD8, symBinAddr: 0xD070, symSize: 0x210 }
+  - { offsetInCU: 0xA7E, offset: 0x5F5A8, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks dynamicLinkInternalFromUniversalLinkURL:completion:]', symObjAddr: 0xCE8, symBinAddr: 0xD280, symSize: 0x624 }
+  - { offsetInCU: 0xBD2, offset: 0x5F6FC, size: 0x8, addend: 0x0, symName: '___70-[FIRDynamicLinks dynamicLinkInternalFromUniversalLinkURL:completion:]_block_invoke', symObjAddr: 0x130C, symBinAddr: 0xD8A4, symSize: 0xD8 }
+  - { offsetInCU: 0xC68, offset: 0x5F792, size: 0x8, addend: 0x0, symName: '___70-[FIRDynamicLinks dynamicLinkInternalFromUniversalLinkURL:completion:]_block_invoke_2', symObjAddr: 0x13E4, symBinAddr: 0xD97C, symSize: 0x14 }
+  - { offsetInCU: 0xCD4, offset: 0x5F7FE, size: 0x8, addend: 0x0, symName: '___70-[FIRDynamicLinks dynamicLinkInternalFromUniversalLinkURL:completion:]_block_invoke.74', symObjAddr: 0x147C, symBinAddr: 0xD990, symSize: 0x10 }
+  - { offsetInCU: 0xD54, offset: 0x5F87E, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks dynamicLinkFromUniversalLinkURL:]', symObjAddr: 0x14E8, symBinAddr: 0xD9A0, symSize: 0x8 }
+  - { offsetInCU: 0xD99, offset: 0x5F8C3, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks dynamicLinkFromUniversalLinkURL:completion:]', symObjAddr: 0x14F0, symBinAddr: 0xD9A8, symSize: 0x1C }
+  - { offsetInCU: 0xDEF, offset: 0x5F919, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks handleUniversalLink:completion:]', symObjAddr: 0x150C, symBinAddr: 0xD9C4, symSize: 0x1C4 }
+  - { offsetInCU: 0xE8B, offset: 0x5F9B5, size: 0x8, addend: 0x0, symName: '___50-[FIRDynamicLinks handleUniversalLink:completion:]_block_invoke', symObjAddr: 0x16D0, symBinAddr: 0xDB88, symSize: 0x12C }
+  - { offsetInCU: 0xF6B, offset: 0x5FA95, size: 0x8, addend: 0x0, symName: '___50-[FIRDynamicLinks handleUniversalLink:completion:]_block_invoke_2', symObjAddr: 0x17FC, symBinAddr: 0xDCB4, symSize: 0x14 }
+  - { offsetInCU: 0xFD7, offset: 0x5FB01, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40w, symObjAddr: 0x1810, symBinAddr: 0xDCC8, symSize: 0x38 }
+  - { offsetInCU: 0x1000, offset: 0x5FB2A, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks resolveShortLink:completion:]', symObjAddr: 0x1870, symBinAddr: 0xDD00, symSize: 0x94 }
+  - { offsetInCU: 0x1064, offset: 0x5FB8E, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks matchesShortLinkFormat:]', symObjAddr: 0x1904, symBinAddr: 0xDD94, symSize: 0x8 }
+  - { offsetInCU: 0x10D7, offset: 0x5FC01, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks isAutomaticRetrievalEnabled]', symObjAddr: 0x190C, symBinAddr: 0xDD9C, symSize: 0xA4 }
+  - { offsetInCU: 0x111C, offset: 0x5FC46, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks dynamicLinkNetworking]', symObjAddr: 0x19B0, symBinAddr: 0xDE40, symSize: 0x4C }
+  - { offsetInCU: 0x1154, offset: 0x5FC7E, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks canParseCustomSchemeURL:]', symObjAddr: 0x19FC, symBinAddr: 0xDE8C, symSize: 0x1A4 }
+  - { offsetInCU: 0x11B5, offset: 0x5FCDF, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks canParseUniversalLinkURL:]', symObjAddr: 0x1BA0, symBinAddr: 0xE030, symSize: 0x8 }
+  - { offsetInCU: 0x1223, offset: 0x5FD4D, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks handleIncomingCustomSchemeDeepLink:]', symObjAddr: 0x1BA8, symBinAddr: 0xE038, symSize: 0x4 }
+  - { offsetInCU: 0x1268, offset: 0x5FD92, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks passRetrievedDynamicLinkToApplication:]', symObjAddr: 0x1BAC, symBinAddr: 0xE03C, symSize: 0xDC }
+  - { offsetInCU: 0x12BE, offset: 0x5FDE8, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks isOpenUrlMethodPresentInAppDelegate:]', symObjAddr: 0x1C88, symBinAddr: 0xE118, symSize: 0x20 }
+  - { offsetInCU: 0x1303, offset: 0x5FE2D, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks handlePendingDynamicLinkRetrievalFailureWithErrorCode:errorDescription:underlyingError:]', symObjAddr: 0x1CA8, symBinAddr: 0xE138, symSize: 0x8 }
+  - { offsetInCU: 0x135C, offset: 0x5FE86, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks retrievalProcess:completedWithResult:]', symObjAddr: 0x1CB0, symBinAddr: 0xE140, symSize: 0xA0 }
+  - { offsetInCU: 0x13BF, offset: 0x5FEE9, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks genericDiagnosticInformation]', symObjAddr: 0x1D50, symBinAddr: 0xE1E0, symSize: 0x1C8 }
+  - { offsetInCU: 0x1460, offset: 0x5FF8A, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks diagnosticAnalyzeEntitlements]', symObjAddr: 0x1F18, symBinAddr: 0xE3A8, symSize: 0x46C }
+  - { offsetInCU: 0x15BE, offset: 0x600E8, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks performDiagnosticsIncludingHeaderFooter:detectedErrors:]', symObjAddr: 0x2384, symBinAddr: 0xE814, symSize: 0x434 }
+  - { offsetInCU: 0x1713, offset: 0x6023D, size: 0x8, addend: 0x0, symName: '+[FIRDynamicLinks performDiagnosticsWithCompletion:]', symObjAddr: 0x27B8, symBinAddr: 0xEC48, symSize: 0x94 }
+  - { offsetInCU: 0x1795, offset: 0x602BF, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks APIKey]', symObjAddr: 0x284C, symBinAddr: 0xECDC, symSize: 0x8 }
+  - { offsetInCU: 0x17CC, offset: 0x602F6, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks setAPIKey:]', symObjAddr: 0x2854, symBinAddr: 0xECE4, symSize: 0x8 }
+  - { offsetInCU: 0x180B, offset: 0x60335, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks URLScheme]', symObjAddr: 0x285C, symBinAddr: 0xECEC, symSize: 0x8 }
+  - { offsetInCU: 0x1842, offset: 0x6036C, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks setURLScheme:]', symObjAddr: 0x2864, symBinAddr: 0xECF4, symSize: 0x8 }
+  - { offsetInCU: 0x1881, offset: 0x603AB, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks retrievingPendingDynamicLink]', symObjAddr: 0x286C, symBinAddr: 0xECFC, symSize: 0xC }
+  - { offsetInCU: 0x18B8, offset: 0x603E2, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks setRetrievingPendingDynamicLink:]', symObjAddr: 0x2878, symBinAddr: 0xED08, symSize: 0x8 }
+  - { offsetInCU: 0x18F5, offset: 0x6041F, size: 0x8, addend: 0x0, symName: '-[FIRDynamicLinks .cxx_destruct]', symObjAddr: 0x2880, symBinAddr: 0xED10, symSize: 0x60 }
+  - { offsetInCU: 0x27, offset: 0x60B13, size: 0x8, addend: 0x0, symName: '+[GINArgument argumentWithObject:]', symObjAddr: 0x0, symBinAddr: 0xED70, symSize: 0x5C }
+  - { offsetInCU: 0xF8, offset: 0x60BE4, size: 0x8, addend: 0x0, symName: '+[GINArgument argumentWithObject:]', symObjAddr: 0x0, symBinAddr: 0xED70, symSize: 0x5C }
+  - { offsetInCU: 0x14B, offset: 0x60C37, size: 0x8, addend: 0x0, symName: '+[GINArgument argumentWithInteger:]', symObjAddr: 0x5C, symBinAddr: 0xEDCC, symSize: 0x48 }
+  - { offsetInCU: 0x19E, offset: 0x60C8A, size: 0x8, addend: 0x0, symName: '+[GINArgument setNextArgumentInList:atIndex:inInvocation:]', symObjAddr: 0xA4, symBinAddr: 0xEE14, symSize: 0xC0 }
+  - { offsetInCU: 0x211, offset: 0x60CFD, size: 0x8, addend: 0x0, symName: '-[GINArgument setArgumentInInvocation:atIndex:]', symObjAddr: 0x164, symBinAddr: 0xEED4, symSize: 0x68 }
+  - { offsetInCU: 0x264, offset: 0x60D50, size: 0x8, addend: 0x0, symName: '-[GINArgument type]', symObjAddr: 0x1CC, symBinAddr: 0xEF3C, symSize: 0x8 }
+  - { offsetInCU: 0x29B, offset: 0x60D87, size: 0x8, addend: 0x0, symName: '-[GINArgument setType:]', symObjAddr: 0x1D4, symBinAddr: 0xEF44, symSize: 0x8 }
+  - { offsetInCU: 0x2D8, offset: 0x60DC4, size: 0x8, addend: 0x0, symName: '-[GINArgument object]', symObjAddr: 0x1DC, symBinAddr: 0xEF4C, symSize: 0x8 }
+  - { offsetInCU: 0x30F, offset: 0x60DFB, size: 0x8, addend: 0x0, symName: '-[GINArgument setObject:]', symObjAddr: 0x1E4, symBinAddr: 0xEF54, symSize: 0xC }
+  - { offsetInCU: 0x350, offset: 0x60E3C, size: 0x8, addend: 0x0, symName: '-[GINArgument integer]', symObjAddr: 0x1F0, symBinAddr: 0xEF60, symSize: 0x8 }
+  - { offsetInCU: 0x387, offset: 0x60E73, size: 0x8, addend: 0x0, symName: '-[GINArgument setInteger:]', symObjAddr: 0x1F8, symBinAddr: 0xEF68, symSize: 0x8 }
+  - { offsetInCU: 0x3C4, offset: 0x60EB0, size: 0x8, addend: 0x0, symName: '-[GINArgument .cxx_destruct]', symObjAddr: 0x200, symBinAddr: 0xEF70, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x60F4D, size: 0x8, addend: 0x0, symName: '+[GINInvocation objectByPerformingSelector:onTarget:numberOfArguments:]', symObjAddr: 0x0, symBinAddr: 0xEF7C, symSize: 0x124 }
+  - { offsetInCU: 0x65, offset: 0x60F8B, size: 0x8, addend: 0x0, symName: '+[GINInvocation objectByPerformingSelector:onTarget:numberOfArguments:]', symObjAddr: 0x0, symBinAddr: 0xEF7C, symSize: 0x124 }
+  - { offsetInCU: 0x168, offset: 0x6108E, size: 0x8, addend: 0x0, symName: '+[GINInvocation doubleByPerformingSelector:onTarget:numberOfArguments:]', symObjAddr: 0x124, symBinAddr: 0xF0A0, symSize: 0x11C }
+...

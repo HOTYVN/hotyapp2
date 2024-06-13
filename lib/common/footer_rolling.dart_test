@@ -1,0 +1,284 @@
+import 'dart:math' as math;
+import 'package:flutter/material.dart';
+import 'package:hoty/categorymenu/common/view_on_map.dart';
+import 'package:hoty/kin/kinlist.dart';
+import 'package:hoty/main/main_page.dart';
+import 'package:roulette/utils/constants.dart';
+
+import '../categorymenu/living_list.dart';
+import '../community/dailytalk/community_dailyTalk.dart';
+import '../community/usedtrade/trade_list.dart';
+
+class FotterRolling extends StatefulWidget {
+  @override
+  _CircularWidgetsSliderState createState() => _CircularWidgetsSliderState();
+}
+
+class _CircularWidgetsSliderState extends State<FotterRolling> with SingleTickerProviderStateMixin {
+  final int numberOfWidgets = 7;
+  final double radius = 94;
+  double _rotateAngle = 0.0;
+  int selectIndex = 0;
+  var strList = ['중고거래', '일상공유', '핫딜공유', '지식IN', '맛집공유', '사업수다방', '호티 지도'];
+
+  late final AnimationController _controller;
+  late final Animation<double> _animation;
+  late int _currentIndex = 0;
+  final double _itemHeight = 50.0;
+  Duration duration =  Duration(milliseconds: 100);
+  late final AnimationController controller;
+
+
+
+  double _rotationAngle = 0;
+
+
+  @override
+  void initState() {
+    super.initState();
+    controller = AnimationController(
+      vsync: this,
+      duration: duration,
+    );
+    _animation = Tween(begin: 0.0, end: math.pi * 2).animate(controller)
+      ..addListener(() {
+        setState(() {
+          // Update the current index based on animation value
+          _currentIndex = (_animation.value / (math.pi * 2) * strList.length)
+              .floor() %
+              strList.length;
+        });
+      });
+  }
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
+
+  void _startRoulette() {
+    controller.repeat();
+  }
+
+  void _stopRoulette() {
+    controller.stop();
+  }
+
+
+  @override
+  Widget build(BuildContext context) {
+    double pageWidth = MediaQuery.of(context).size.width;
+    double m_height = (MediaQuery.of(context).size.height / 360 ) ;
+    double aspectRatio = MediaQuery.of(context).size.aspectRatio;
+    double c_height = m_height;
+    double m_width = (MediaQuery.of(context).size.width/360);
+
+    bool isFold = pageWidth > 480 ? true : false;
+
+    if(aspectRatio > 0.55) {
+      if(isFold == true) {
+        c_height = m_height * (m_width * aspectRatio);
+        // c_height = m_height * ( aspectRatio);
+      } else {
+        c_height = m_height *  (aspectRatio * 2);
+      }
+    } else {
+      c_height = m_height *  (aspectRatio * 2);
+    }
+
+
+    return Dialog(
+      // alignment: Alignment.bottomCenter,
+      elevation: 0,
+      backgroundColor: Colors.transparent,
+      child: Column(
+        // mainAxisSize: MainAxisSize.min,
+        // crossAxisAlignment: CrossAxisAlignment.end,
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          /*   GestureDetector(
+          onTap: () {
+            if (controller.isAnimating) {
+              _stopRoulette();
+            } else {
+              _startRoulette();
+            }
+          },
+          child: Container(
+            width: 200, // Adjust as needed
+            height: _itemHeight,
+            decoration: BoxDecoration(
+              border: Border.all(color: Colors.black),
+            ),
+            child: Center(
+              child: Text(
+                _currentIndex != null ? strList[_currentIndex] : '',
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ),
+        ),
+        SizedBox(height: 20),
+        ElevatedButton(
+          onPressed: () {
+            _stopRoulette();
+          },
+          child: Text('Stop'),
+        ),*/
+          Container(
+            margin: EdgeInsets.fromLTRB(0, 10 * (MediaQuery.of(context).size.height / 360), 0, 0),
+            child: Stack(
+              children: [
+                GestureDetector(
+                  onPanUpdate: (details) {
+                    double dx = details.localPosition.dx - (360 * (MediaQuery.of(context).size.width / 360)) / 2;
+                    double dy = details.localPosition.dy - (180 * (MediaQuery.of(context).size.width / 360)) / 2;
+                    setState(() {
+                      // _rotationAngle += 5 * (details.delta.dx / 360);
+                      // _rotationAngle += 2 * (details.delta.dy / 360);
+                      _rotationAngle += dy / 16; // Adjust the sensitivity
+                    });
+                  },
+                  child: Container(
+                    width: 300 * (MediaQuery.of(context).size.width / 360),
+                    height: 150 * c_height ,
+                    color: Colors.transparent,
+                    child: Transform.rotate(
+                      angle: _rotationAngle * (math.pi / 180), // Convert degrees to radians
+                      origin: Offset(0.0, 0.0),
+                      /*child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          shape: BoxShape.circle,
+                          border: Border.all(color: Colors.white, width: 2.0),
+                        ),
+                        child: Row(
+                          children: [
+                            Container(
+                              width: 40 * (MediaQuery.of(context).size.width / 360),
+                              height: 10 * (MediaQuery.of(context).size.height / 360),
+                              child: Image(image: AssetImage('assets/footer_rollicon1.png')),
+                            ),
+                            Container(
+                              width: 40 * (MediaQuery.of(context).size.width / 360),
+                              height: 10 * (MediaQuery.of(context).size.height / 360),
+                              child: Image(image: AssetImage('assets/footer_rollicon2.png')),
+                            ),
+                            Container(
+                              width: 40 * (MediaQuery.of(context).size.width / 360),
+                              height: 10 * (MediaQuery.of(context).size.height / 360),
+                              child: Image(image: AssetImage('assets/footer_rollicon3.png')),
+                            ),
+                          ],
+                        ),
+                      ),*/
+                      child: Container(
+                        width: 300 * (MediaQuery.of(context).size.width / 360),
+                        height: 150 * c_height ,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          shape: BoxShape.circle,
+                          border: Border.all(color: Colors.white, width: 2.0),
+                        ),
+                        child: CustomPaint(
+                          size: Size(200 * (MediaQuery.of(context).size.width / 360), 150 * c_height),
+                          painter: CircularContainerPainter(),
+
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Container(
+                  width: 300 * (MediaQuery.of(context).size.width / 360),
+                  height: 150 * c_height ,
+                  child: Center(
+                      child: Container(
+                          width: 90 * (MediaQuery.of(context).size.width / 360),
+                          height: 50 * c_height ,
+                          decoration: BoxDecoration(
+                            color: Color(0xffF9FBFB),
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.white, width: 2.0),
+                          ),
+                          child: Center(
+                            child: Text(
+                              '편집',
+                              style: TextStyle(
+                                fontSize: 18  * (MediaQuery.of(context).size.width / 360),
+                                fontWeight: FontWeight.w800,
+                                fontFamily: 'NanumSquareR',
+                                color: Color(0xffC4CCD0),
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                          )
+                      )
+                  ),
+                ),
+
+              ],
+            ),
+          )
+
+        ],
+      ),
+    );
+  }
+}
+
+class CircularContainerPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    var strList = ['중고거래', '일상공유', '핫딜공유', '지식IN', '맛집공유', '사업수다방', '호티 지도'];
+
+    final double radius = size.width / 2;
+    final double centerX = size.width / 2;
+    final double centerY = size.height /2;
+
+    final Paint sectionPaint = Paint()
+      ..color = Colors.blue
+    ..strokeWidth = 10;
+    final Paint linePaint = Paint()
+      ..color = Colors.black12
+      ..strokeWidth = 1;
+
+    final double angleStep = 2 * math.pi / strList.length;
+
+    // Draw sections
+    for (int i = 0; i < strList.length; i++) {
+      final double startAngle = i * angleStep - math.pi / 2;
+      final double endAngle = (i + 1) * angleStep - math.pi / 2;
+      final Rect arcRect = Rect.fromCircle(center: Offset(centerX, centerY), radius: radius);
+      canvas.drawArc(arcRect, startAngle, angleStep, true, sectionPaint);
+
+      // Draw lines
+      final double startX = centerX + radius * math.cos(startAngle + angleStep / 2);
+      final double startY = centerY + radius * math.sin(startAngle + angleStep / 2);
+      final double endX = centerX + radius * math.cos(endAngle + angleStep / 2);
+      final double endY = centerY + radius * math.sin(endAngle + angleStep / 2);
+      // canvas.drawLine(Offset(centerX, centerY), Offset(startX, startY), linePaint);
+      // canvas.drawLine(Offset(centerX, centerY), Offset(endX, endY), linePaint);
+
+      // Draw text
+      final textPainter = TextPainter(
+        text: TextSpan(
+          text: '${strList[i]}',
+          style: TextStyle(color: Colors.black12, fontSize: 16),
+        ),
+        textAlign: TextAlign.center,
+        textDirection: TextDirection.ltr,
+      );
+
+      textPainter.layout();
+      final textCenterX = centerX + radius * 0.7 * math.cos(startAngle + angleStep / 2);
+      final textCenterY = centerY + radius * 0.7 * math.sin(startAngle + angleStep / 2);
+      textPainter.paint(canvas, Offset(textCenterX - textPainter.width / 2, textCenterY - textPainter.height / 2));
+    }
+  }
+
+  @override
+  bool shouldRepaint(CustomPainter oldDelegate) {
+    return false;
+  }
+}

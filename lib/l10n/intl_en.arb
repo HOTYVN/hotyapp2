@@ -1,0 +1,15 @@
+{
+  "Start": "Start",
+  "Get_Started_Now": "Get Started Now",
+  "Next": "Next",
+  "Back": "Back",
+  "Save": "Save",
+  "Name": "Name",
+  "Email": "Email",
+  "NickName": "NickName",
+  "Male": "Male",
+  "Female": "Female",
+  "Birthday":"Birthday",
+  "PhoneNumber": "Phone Number",
+  "Location": "Location"
+}

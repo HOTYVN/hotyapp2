@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "438977939521",
+    "project_id": "hoty-65cd7",
+    "storage_bucket": "hoty-65cd7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438977939521:android:537f1b10e3ef73f1fbdec0",
+        "android_client_info": {
+          "package_name": "com.hotyvn.hoty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY3VzBHgBKl1a4Cs2Xh-Cn1wcy1jKJtwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438977939521-bkgnu9t70li81a1qt0te41i9barfiubb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hotyvn.hoty"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
