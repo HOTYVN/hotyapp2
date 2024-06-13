@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mediacore/Documents/dev/hoty/build/ios/Release-iphoneos/flutter_naver_login/flutter_naver_login.framework/flutter_naver_login'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x43E3, size: 0x8, addend: 0x0, symName: _flutter_naver_loginVersionString, symObjAddr: 0x0, symBinAddr: 0x5400, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x4417, size: 0x8, addend: 0x0, symName: _flutter_naver_loginVersionNumber, symObjAddr: 0x38, symBinAddr: 0x5438, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x4453, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x1C0 }
+  - { offsetInCU: 0xB6, offset: 0x44E2, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x1C0 }
+  - { offsetInCU: 0x14E, offset: 0x457A, size: 0x8, addend: 0x0, symName: '+[FlutterNaverLoginPlugin registerWithRegistrar:]', symObjAddr: 0x1C0, symBinAddr: 0x41C0, symSize: 0xA4 }
+  - { offsetInCU: 0x1A7, offset: 0x45D3, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin handleMethodCall:result:]', symObjAddr: 0x264, symBinAddr: 0x4264, symSize: 0x3B4 }
+  - { offsetInCU: 0x245, offset: 0x4671, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin initSdk]', symObjAddr: 0x618, symBinAddr: 0x4618, symSize: 0x5C }
+  - { offsetInCU: 0x28D, offset: 0x46B9, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin logout]', symObjAddr: 0x674, symBinAddr: 0x4674, symSize: 0x68 }
+  - { offsetInCU: 0x2DE, offset: 0x470A, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin getUserInfo]', symObjAddr: 0x6DC, symBinAddr: 0x46DC, symSize: 0x4D8 }
+  - { offsetInCU: 0x3E2, offset: 0x480E, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin oauth20ConnectionDidFinishRequestACTokenWithAuthCode]', symObjAddr: 0xBB4, symBinAddr: 0x4BB4, symSize: 0x2C }
+  - { offsetInCU: 0x412, offset: 0x483E, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin oauth20ConnectionDidFinishDeleteToken]', symObjAddr: 0xBE0, symBinAddr: 0x4BE0, symSize: 0x74 }
+  - { offsetInCU: 0x463, offset: 0x488F, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin oauth20ConnectionDidFinishRequestACTokenWithRefreshToken]', symObjAddr: 0xC54, symBinAddr: 0x4C54, symSize: 0x2C }
+  - { offsetInCU: 0x493, offset: 0x48BF, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin oauth20Connection:didFailWithError:]', symObjAddr: 0xC80, symBinAddr: 0x4C80, symSize: 0x38 }
+  - { offsetInCU: 0x4DD, offset: 0x4909, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin oauth20Connection:didFinishAuthorizationWithResult:]', symObjAddr: 0xCB8, symBinAddr: 0x4CB8, symSize: 0x38 }
+  - { offsetInCU: 0x527, offset: 0x4953, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin oauth20Connection:didFailAuthorizationWithRecieveType:]', symObjAddr: 0xCF0, symBinAddr: 0x4CF0, symSize: 0x84 }
+  - { offsetInCU: 0x592, offset: 0x49BE, size: 0x8, addend: 0x0, symName: '-[FlutterNaverLoginPlugin .cxx_destruct]', symObjAddr: 0xD74, symBinAddr: 0x4D74, symSize: 0x30 }
+...

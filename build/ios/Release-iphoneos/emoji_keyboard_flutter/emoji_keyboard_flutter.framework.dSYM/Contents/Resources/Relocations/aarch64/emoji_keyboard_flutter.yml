@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mediacore/Documents/dev/hoty/build/ios/Release-iphoneos/emoji_keyboard_flutter/emoji_keyboard_flutter.framework/emoji_keyboard_flutter'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5B14A, size: 0x8, addend: 0x0, symName: _emoji_keyboard_flutterVersionString, symObjAddr: 0x0, symBinAddr: 0x6960, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5B17F, size: 0x8, addend: 0x0, symName: _emoji_keyboard_flutterVersionNumber, symObjAddr: 0x38, symBinAddr: 0x6998, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5B1BC, size: 0x8, addend: 0x0, symName: '+[EmojiKeyboardFlutterPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x91, offset: 0x5B226, size: 0x8, addend: 0x0, symName: '+[EmojiKeyboardFlutterPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x5B2BA, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginC8register4withySo0gH9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x4 }
+  - { offsetInCU: 0x7A, offset: 0x5B30D, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginC8register4withySo0gH9Registrar_p_tFZTo', symObjAddr: 0x24, symBinAddr: 0x4030, symSize: 0x30 }
+  - { offsetInCU: 0xDB, offset: 0x5B36E, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginC6handle_6resultySo0G10MethodCallC_yypSgctFTo', symObjAddr: 0x138, symBinAddr: 0x4144, symSize: 0x74 }
+  - { offsetInCU: 0x123, offset: 0x5B3B6, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginCACycfcTo', symObjAddr: 0x1DC, symBinAddr: 0x41E8, symSize: 0x3C }
+  - { offsetInCU: 0x174, offset: 0x5B407, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginC8register4withySo0gH9Registrar_p_tFZTf4nd_n', symObjAddr: 0x248, symBinAddr: 0x4254, symSize: 0xD4 }
+  - { offsetInCU: 0x207, offset: 0x5B49A, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginC6handle_6resultySo0G10MethodCallC_yypSgctF015$syXlSgIeyBy_ypO7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4ddg_n', symObjAddr: 0x3BC, symBinAddr: 0x43C8, symSize: 0x174 }
+  - { offsetInCU: 0x247, offset: 0x5B4DA, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x31C, symBinAddr: 0x4328, symSize: 0x40 }
+  - { offsetInCU: 0x25B, offset: 0x5B4EE, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x35C, symBinAddr: 0x4368, symSize: 0x40 }
+  - { offsetInCU: 0x26F, offset: 0x5B502, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginCMa', symObjAddr: 0x39C, symBinAddr: 0x43A8, symSize: 0x20 }
+  - { offsetInCU: 0x28E, offset: 0x5B521, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x530, symBinAddr: 0x453C, symSize: 0x48 }
+  - { offsetInCU: 0x2A2, offset: 0x5B535, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x578, symBinAddr: 0x4584, symSize: 0x24 }
+  - { offsetInCU: 0x2B6, offset: 0x5B549, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x59C, symBinAddr: 0x45A8, symSize: 0x20 }
+  - { offsetInCU: 0x409, offset: 0x5B69C, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginC8register4withySo0gH9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x4 }
+  - { offsetInCU: 0x41D, offset: 0x5B6B0, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginCACycfC', symObjAddr: 0x4, symBinAddr: 0x4010, symSize: 0x20 }
+  - { offsetInCU: 0x451, offset: 0x5B6E4, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginC6handle_6resultySo0G10MethodCallC_yypSgctF', symObjAddr: 0x54, symBinAddr: 0x4060, symSize: 0xE4 }
+  - { offsetInCU: 0x49B, offset: 0x5B72E, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginCACycfc', symObjAddr: 0x1AC, symBinAddr: 0x41B8, symSize: 0x30 }
+  - { offsetInCU: 0x4D2, offset: 0x5B765, size: 0x8, addend: 0x0, symName: '_$s22emoji_keyboard_flutter31SwiftEmojiKeyboardFlutterPluginCfD', symObjAddr: 0x218, symBinAddr: 0x4224, symSize: 0x30 }
+...

@@ -1,0 +1,11 @@
+framework module emoji_keyboard_flutter {
+  umbrella header "emoji_keyboard_flutter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module emoji_keyboard_flutter.Swift {
+  header "emoji_keyboard_flutter-Swift.h"
+  requires objc
+}
