@@ -1,0 +1,18 @@
+[core]
+	bare = false
+	repositoryformatversion = 0
+	filemode = true
+	ignorecase = true
+	precomposeunicode = true
+	logallrefupdates = true
+[remote "origin"]
+	url = http://mcray.iptime.org:81/svn/hoty/app/hoty
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "hotyapp"]
+	url = https://github.com/HOTYVN/hotyapp
+	fetch = +refs/heads/*:refs/remotes/hotyapp/*
+[branch "main"]
+	remote = hotyapp
+	merge = refs/heads/main
+[lfs]
+	repositoryformatversion = 0

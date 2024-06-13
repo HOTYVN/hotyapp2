@@ -1,0 +1,13 @@
+0000000000000000000000000000000000000000 817850723370f450d9ba2af421dff89ad6927804 HOTYVN <info@hotyvn.com> 1718245913 -0700	commit (initial): Initial Commit
+817850723370f450d9ba2af421dff89ad6927804 817850723370f450d9ba2af421dff89ad6927804 HOTYVN <info@hotyvn.com> 1718260660 -0700	reset: moving to HEAD
+817850723370f450d9ba2af421dff89ad6927804 817850723370f450d9ba2af421dff89ad6927804 HOTYVN <info@hotyvn.com> 1718274355 -0700	reset: moving to HEAD
+817850723370f450d9ba2af421dff89ad6927804 817850723370f450d9ba2af421dff89ad6927804 HOTYVN <info@hotyvn.com> 1718274370 -0700	rebase: checkout refs/remotes/hotyapp/main
+817850723370f450d9ba2af421dff89ad6927804 817850723370f450d9ba2af421dff89ad6927804 HOTYVN <info@hotyvn.com> 1718274370 -0700	rebase finished: returning to refs/heads/main
+817850723370f450d9ba2af421dff89ad6927804 817850723370f450d9ba2af421dff89ad6927804 HOTYVN <info@hotyvn.com> 1718277207 -0700	checkout: moving from main to 817850723370f450d9ba2af421dff89ad6927804
+817850723370f450d9ba2af421dff89ad6927804 407e2fa5466eddecaded869ec259fc5ac6cd4d9e HOTYVN <info@hotyvn.com> 1718277766 -0700	commit (amend): Initial Commit
+407e2fa5466eddecaded869ec259fc5ac6cd4d9e 407e2fa5466eddecaded869ec259fc5ac6cd4d9e HOTYVN <info@hotyvn.com> 1718280152 -0700	checkout: moving from 407e2fa5466eddecaded869ec259fc5ac6cd4d9e to hoty_branch
+407e2fa5466eddecaded869ec259fc5ac6cd4d9e 0000000000000000000000000000000000000000 HOTYVN <info@hotyvn.com> 1718280282 -0700	Reverting first commit
+0000000000000000000000000000000000000000 e44c5615290eab5cdc4c30ea232efcb4d518eec7 HOTYVN <info@hotyvn.com> 1718280287 -0700	commit (initial): Initial Commit
+e44c5615290eab5cdc4c30ea232efcb4d518eec7 3eb01bb5248482a680ed6448e38feff97c07f1c5 HOTYVN <info@hotyvn.com> 1718280545 -0700	commit (merge): Merge remote-tracking branch 'refs/remotes/hotyapp/main'
+3eb01bb5248482a680ed6448e38feff97c07f1c5 0000000000000000000000000000000000000000 HOTYVN <info@hotyvn.com> 1718280710 -0700	Branch: renamed refs/heads/hoty_branch to refs/heads/main
+0000000000000000000000000000000000000000 3eb01bb5248482a680ed6448e38feff97c07f1c5 HOTYVN <info@hotyvn.com> 1718280710 -0700	Branch: renamed refs/heads/hoty_branch to refs/heads/main
