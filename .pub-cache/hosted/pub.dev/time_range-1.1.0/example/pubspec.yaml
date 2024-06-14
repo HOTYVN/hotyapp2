@@ -1,0 +1,19 @@
+name: time_range_example
+description: A new Flutter application.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  time_range:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter

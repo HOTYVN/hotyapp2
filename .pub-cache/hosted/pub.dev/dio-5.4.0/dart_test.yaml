@@ -1,0 +1,11 @@
+file_reporters:
+  json: build/reports/test-results.json
+
+override_platforms:
+  chrome:
+    settings:
+      headless: true
+  firefox:
+    settings:
+      # headless argument has to be set explicitly for non-chrome browsers
+      arguments: --headless
